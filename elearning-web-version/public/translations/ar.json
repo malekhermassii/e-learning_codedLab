@@ -1,0 +1,1889 @@
+{
+    "navbar": {
+        "menu": {
+            "home": "الرئيسية",
+            "courses": "الدورات",
+            "contact": "اتصل بنا",
+            "toast": {
+                "success": "تم الدفع بنجاح! يتم تفعيل الاشتراك الآن.",
+                "error": "فشل الدفع. يرجى المحاولة مرة أخرى."
+            },
+            "openMainMenu": "فتح القائمة الرئيسية",
+            "notifications": {
+                "title": "الإشعارات",
+                "noNotifications": "لا يوجد إشعارات",
+                "newEnrollement": "تسجيل جديد: {{studentName}} قد تم تسجيله  في دورة {{courseName}}",
+                "newCourse": "دورة جديدة تم إضافتها: {{courseName}}",
+                "courseApproved": "دورة تم الموافقة عليها: {{courseName}}",
+                "newEnrollmentTitle": "تسجيل جديد", 
+                "newCourseTitle": "دورة جديدة"
+            }
+        },
+        "notifications": {
+            "title": "الإشعارات",
+            "noNotifications": "لا يوجد إشعارات",
+        "newEnrollement": "تسجيل جديد: {{studentName}} قد تم تسجيله  في دورة {{courseName}}",
+        "newCourse": "دورة جديدة تم إضافتها: {{courseName}}",
+
+            "courseApproved": "دورة تم الموافقة عليها: {{courseName}}",
+            "newEnrollmentTitle": "تسجيل جديد", 
+            "newCourseTitle": "دورة جديدة"
+        },
+
+        "auth": {
+            "signIn": "تسجيل الدخول",
+            "signOut": "تسجيل الخروج",
+            "profile": "الملف الشخصي",
+            "editProfile": "تعديل الملف الشخصي",
+            "myCourses": "دوراتي",
+            "registrationError": "خطأ في التسجيل:"
+        },
+        "language": {
+            "english": "الإنجليزية",
+            "arabic": "العربية"
+        }
+    },
+    "hero": {
+        "title": "أفضل منصة، سجّل في دورتك الخاصة",
+        "subtitle": "مهمتنا مساعدة الناس في العثور على أفضل دورة تدريبية - عبر الإنترنت والتعلم مع خبراء في أي مكان",
+        "subscribe_button": "اشترك الآن"
+    },
+    "categories": {
+        "explore_categories": "استكشف فئاتنا",
+        "scroll_left": "التمرير لليسار",
+        "scroll_right": "التمرير لليمين",
+        "loading": "جاري التحميل..."
+    },
+    "whoIsElearning": {
+        "title": "من نحن",
+        "description": "نحن نهدف إلى تمكين الأفراد بتقديم تعليم عبر الإنترنت قابل للوصول ومنهجي عالي الجودة تناسب احتياجات المتعلمين والمهنيين الباحثين عن نمو في عالم عصري يتطور بسرعة كبيرة.",
+        "ourTeachers": "مدرسينا",
+        "loading": "جاري التحميل..."
+    },
+    "recommendation": {
+        "title": "الدورات الموصى بها", 
+        "subtitle": "الدورات المناسبة لأهدافك وأسلوب التعلم",
+        "loading": "جاري التحميل...",
+        "error": "خطأ في تحميل التوصيات",
+        "noRecommendations": "لا يوجد توصيات متاحة حاليا",
+        "failedToFetchApprenant": "فشل تحميل المتعلم",
+        "failedToFetchRecommendations": "لم يتم العثور على توصيات لهذا المستخدم",
+        "failedToFetchRecommendationss": "فشل تحميل التوصيات",
+        "noRecommendationsFound": "لا يوجد توصيات لهذا المستخدم",
+        "fetchError": "خطأ في تحميل التوصيات",
+        "fetchErrorRecommendations": "خطأ في تحميل التوصيات",
+        "viewCourse": "ابدأ الدورة",
+        "errorCourseId": "خطأ: لم يتم العثور على رقم الدورة",
+        "language": "اللغة",
+        "level": "المستوى"
+       
+    },
+
+    "userTypes": {
+        "instructor": {
+            "title": "للمدربين",
+            "buttonText": "ابدأ التدريس اليوم"
+        },
+        "student": {
+            "title": "للطلاب",
+            "buttonText": "ابدأ الآن"
+        }
+    },
+    "popularCourses": {
+        "title": "ابدأ مع هذه الدورات",
+        "seeAll": "عرض الكل",
+        "loading": "جاري تحميل الدورات...",
+        "error": "خطأ في تحميل الدورات:",
+        "courseCard": {
+            "startCourse": "عرض الدورة",
+            "languages": "اللغات",
+            "students": "الطلاب",
+            "level": "المستوى"
+        }
+    },
+    "pricing": {
+        "title": "خطط الأسعار",
+        "description": "اختر الخطة التدريبية المثالية التي تناسب احتياجاتك. كل الخطط تشمل وصول غير محدود إلى مكتبة الدورات التدريبية.",
+        "features": {
+            "unlimitedAccess": "وصول غير محدود",
+            "learnAnytime": "تعلم في أي وقت وأي مكان",
+            "certification": "شهادة بعد الإكمال",
+            "webMobile": "الوصول عبر الويب والجوال",
+            "quiz": "الوصول إلى الاختبارات"
+        },
+        "alert": {
+            "alreadyHaveSubscription": "لديك اشتراك مفعل بالفعل"
+        },
+        "planNames": {
+            "Monthly": "شهري",
+            "Yearly": "سنوي"
+            
+        },
+        "subscribe": "اشترك الآن",
+        "perMonth": "شهرياً",
+        "perYear": "سنوياً",
+        "save": "حفظ",
+        "currency": "د.ت"
+    },
+    "successStats": {
+        "title": "إنجازاتنا",
+        "students": "طالب",
+        "courses": "دورة تدريبية",
+        "experience": "سنوات من الخبرة",
+        "achievements": "إنجاز"
+    },
+    "footer": {
+        "newsletter": {
+            "title": "اشترك للحصول على نشرتنا الإخبارية",
+            "placeholder": "بريدك الإلكتروني",
+            "button": "اشترك "
+        },
+        "download": {
+            "title": "قم بتحميل تطبيقنا :"
+        },
+        "copyright": "© 2025 كودد لاب."
+    },
+    "subscribe": {
+        "title": "ابحث عن خطة الأسعار التي تناسبك",
+        "description": "شاهد معظم الدورات مع اشتراك شهري أو سنوي. استمر في التطوير بفعالية مع مدربينا الخبراء في مختلف المجالات.",
+        "loading": "جاري تحميل الخطط...",
+        "error": "خطأ في تحميل الخطط",
+        "selectPlan": "الرجاء اختيار خطة أولاً",
+        "features": {
+            "unlimitedAccess": "استمتع بالوصول إلى جميع الدورات التدريبية",
+            "learnAnytime": "تعلم في أي وقت وأي مكان",
+            "certification": "شهادة بعد الإكمال",
+            "webMobile": "الوصول عبر الويب والجوال",
+            "quiz": "الوصول إلى الاختبار"
+        },
+        "planCard": {
+            "whatsIncluded": "استمتع بالفوائد الحصرية التالية",
+            "save": "حفظ",
+            "subscribe": "اشترك الآن",
+            "selectToSubscribe": "اختر للاشتراك",
+            "currency": "د.ت",
+            "perMonth": "شهرياً",
+            "perYear": "سنوياً"
+          
+        }
+    },
+    "instructorApplication": {
+        "title": "انضم إلى مجتمعنا التعليمي",
+        "subtitle": "شارك خبرتك مع الطلاب في جميع أنحاء العالم وكن جزءًا من مجتمعنا المتنامي من المعلمين.",
+        "personalInfo": {
+            "title": "المعلومات الشخصية",
+            "fullName": "الاسم الكامل",
+            "email": "البريد الإلكتروني",
+            "country": "البلد",
+            "birthDate": "تاريخ الميلاد"
+        },
+        "professionalInfo": {
+            "title": "المعلومات المهنية",
+            "speciality": "مجال التخصص",
+            "topics": "المواضيع التي تريد تدريسها",
+            "birthDatePlaceholder": "يوم/شهر/سنة",
+            "cv": {
+                "label": "رفع السيرة الذاتية",
+                "required": "السيرة الذاتية مطلوبة",
+                "selected": "الملف المحدد:"
+            }
+        },
+        "validation": {
+            "name": {
+                "min": "يجب أن يكون الاسم 3 أحرف على الأقل",
+                "required": "الاسم الكامل مطلوب"
+            },
+            "email": {
+                "invalid": "صيغة البريد الإلكتروني غير صالحة",
+                "required": "البريد الإلكتروني مطلوب"
+            },
+            "country": "البلد",
+            "speciality": "مجال التخصص",
+            "birthDate": "تاريخ الميلاد",
+            "topics": "مواضيع التدريس",
+            "cv": "الرجاء رفع السيرة الذاتية"
+        },
+        "submit": {
+            "button": "تقديم الطلب",
+            "processing": "جاري المعالجة...",
+            "success": {
+                "title": "تم تقديم الطلب!",
+                "message": "شكرًا لاهتمامك بأن تصبح معلمًا. سنراجع طلبك وسنعود إليك خلال 2-3 أيام عمل.",
+                "redirecting": "جاري التوجيه إلى الصفحة الرئيسية...",
+                "success": "تم تقديم الطلب بنجاح"
+            },
+            
+            "error": {
+                "title": "خطأ",
+                "noResponse": "لم يتم استلام رد من الخادم. يرجى التحقق من اتصالك.",
+                "unknown": "حدث خطأ أثناء إرسال طلبك"
+            }
+        }
+      
+    },
+    "contact": {
+        "title": "مشاهدة غير محدودة",
+        "subtitle": "دورات بنقرة واحدة!",
+        "subscribeButton": "اشترك الآن",
+        "reachUs": "تواصل معنا",
+        "whatsapp": {
+            "title": "واتساب",
+            "description": "أرسل رسالة واتساب"
+        },
+        "email": {
+            "title": "البريد الإلكتروني",
+            "description": "أرسل بريدًا إلكترونيًا إلى"
+        },
+        "instagram": {
+            "title": "انستغرام",
+            "description": "أرسل رسالة مباشرة إلى"
+        },
+        "linkedin": {
+            "title": "لينكد إن",
+            "description": "تواصل معنا على لينكد إن"
+        }
+    },
+    "courses": {
+        "title": "اختر دورتك التدريبية",
+        "description": "فرصتك القادمة الكبيرة تبدأ بالدورة المناسبة. تصفح البرامج التي يقودها الخبراء في كل مجال",
+        "loading": "جاري تحميل الدورات...",
+        "error": "خطأ:",
+        "results": {
+            "showing": "يعرض",
+            "course": "دورة",
+            "courses": "دورات",
+            "matching": "مطابقة لـ",
+            "noResults": "لم يتم العثور على دورات تطابق",
+            "clearSearch": "مسح البحث"
+
+        },
+        "filters": {
+            "title": "المرشحات",
+            "category": "التصنيف",
+            "allCategories": "جميع التصنيفات",
+            "search": "ابحث",
+            "searchPlaceholder": "ابحث عن دورتك المفضلة",
+            "button": "بحث",
+            "reset": "اعادة ترشيح",
+            "allLevels": "جميع المستويات",
+            "allLanguages": "جميع اللغات",
+            "apply": "تطبيق",
+            "level": "المستوى",
+            "language": "اللغة",
+            "clearFilters": "مسح المرشحات"
+        },
+        "search": {
+            "title": "ابحث عن دورتك المثالية",
+            "placeholder": "ابحث عن دورتك المفضلة",
+            "button": "بحث"
+        }
+    },
+    "courseDetails": {
+        "loading": "جاري تحميل تفاصيل الدورة...",
+        "subscriptionExpired": "لقد انتهت صلاحية اشتراكك. يرجى الاشتراك للمتابعة.",
+        "error": {
+            "title": "خطأ في تحميل الدورة",
+            "message": "تعذر تحميل تفاصيل الدورة. يرجى المحاولة مرة أخرى لاحقًا.",
+            "notFound": "لم يتم العثور على الدورة"
+        },
+        "initializingProgress": "جاري تحميل التقدم للفيديو:",
+        "errorCheckingQuiz": "خطأ في التحقق من الاختبار:",
+        "errorCheckingCourseAndQuizStatus": "خطأ في التحقق من حالة الدورة والاختبار:",
+        "errorProgress": "خطأ في تحميل التقدم:",
+        "progress": {
+            "title": "التقدم"
+        },
+        "tabs": {
+            "overview": "نظرة عامة",
+            "qa": "الأسئلة والأجوبة",
+            "reviews": "التقييمات"
+        },
+        "about": {
+            "title": "حول هذه الدورة",
+            "curriculum": "منهج الدورة",
+            "lessons": "دروس",
+            "minutes": "دقيقة",
+            "createdBy": "مقدم من مدرب",
+            "nameprof": "الاسم:",
+            "speciality": "التخصص"
+        },
+        "qa": {
+            "title": "الأسئلة والأجوبة",
+            "noQuestions": "لا توجد أسئلة حتى الآن.",
+            "form": {
+                "placeholder": "اطرح سؤالك هنا...",
+                "submit": "إرسال السؤال",
+                "notEnrolled": "يجب أن تكون مسجلاً في الدورة لطرح الأسئلة."
+            },
+            "mustBeEnrolled": "يجب أن تكون مسجلاً في الدورة لطرح الأسئلة.",
+            "pleaseEnterQuestion": "يرجى إدخال سؤال.",
+            "questionSubmittedSuccessfully": "تم إرسال السؤال بنجاح!",
+            "errorSendingQuestion": "خطأ في إرسال السؤال.",
+            "errorSendingReview": "خطأ في إرسال التقييم."
+        },
+        "reviews": {
+            "title": "تقييمات الطلاب",
+            "noReviews": "لا توجد تقييمات حتى الآن.",
+            "form": {
+                "title": "اترك تقييمك",
+                "rating": "تقييمك",
+                "content": "تقييمك",
+                "placeholder": "شارك تجربتك مع هذه الدورة...",
+                "submit": "إرسال التقييم",
+                "notEnrolled": "يجب أن تكون مسجلاً لترك تقييم.",
+                "enrollNow": "سجل الآن"
+            },
+            "pleaseWriteCommentAndRate": "يرجى كتابة تقييم ",
+            "errorSendingReview": "خطأ في إرسال التقييم.",
+            "success": "تم إرسال التقييم بنجاح"
+        },
+        "sidebar": {
+            "duration": "المدة:",
+            "level": "المستوى:",
+            "language": "اللغة:",
+            "students": "الطلاب:",
+            "rating": "التقييم:",
+            "continueLearning": "متابعة التعلم",
+            "enrollNow": "سجل الآن",
+            "processing": "جاري المعالجة...",
+            "lessons": "الدروس:"
+        },
+        "videoModal": {
+            "close": "إغلاق",
+            "yourBrowserDoesNotSupportVideo": "لا يدعم متصفحك التشغيل الفيديوي."
+        },
+        "enroll": {
+            "title": "سجل الآن",
+            "loading": "جاري المعالجة...",
+            "success": "تم التسجيل بنجاح",
+            "error": "حدث خطأ أثناء التسجيل"
+        },
+        "enrollSuccess": "لقد قمت بالفعل بالتسجيل في الدورة",
+        "enrollSuccessNotification": "تم التسجيل بنجاح",
+        "errorLoadingUserData": "خطأ في تحميل بيانات المستخدم:",
+        "authenticationTokenNotFound": "لم يتم العثور على رمز التحقق",
+        "subscriptionNotFound": "لم يتم العثور على الاشتراك أو لقد انتهى",
+        "unknownError": "خطأ غير معروف أثناء التسجيل",
+        "detailedError": "خطأ غير معروف أثناء التسجيل",
+        "errorEnroll": "حدث خطأ أثناء التسجيل. يرجى المحاولة مرة أخرى.",
+        "errorVerifyingRegistration": "خطأ في التحقق من التسجيل:"
+    },
+    "enrollmentSuccess": {
+        "title": "تم التسجيل بنجاح",
+        "subtitle": "لقد قمت بالفعل بالتسجيل في الدورة",
+        "subtitle2": "لقد قمت بالفعل بالتسجيل في الدورة",
+        "startLearning": "ابدأ التعلم",
+        "browseCourses": "تصفح الدورات",
+        "viewProfile": "عرض الملف الشخصي",
+        "startLearningButton": "ابدأ التعلم",
+        "modules": "الوحدات",
+        "level": "المستوى",
+        "course": "الدورة",
+        "allLevels": "جميع المستويات",
+        "error": {
+            "courseFetch": "خطأ في تحميل بيانات الدورة",
+            "progression": "خطأ في تحميل التقدم",
+            "errorProgression": "خطأ في تحميل التقدم"
+        }   
+    },
+    "courseContent": {
+        "loading": "جاري تحميل محتوى الدورة...",
+        "verification": "التحقق من الوصول...",
+        "header": {
+            "sections": "أقسام",
+            "duration": "المدة"
+        },
+        "progression": "تقدم محصل بنجاح",
+        "errorProgression": "خطأ في تحميل التقدم",
+        "progress": {
+            "title": "تقدمك",
+            "videoProgress": "تقدم الفيديو"
+        },
+        "lesson": {
+            "module": "الوحدة",
+            "lesson": "الدرس",
+            "of": "من",
+            "previous": "السابق",
+            "next": "التالي"
+        },
+        "completion": {
+            "congratulations": "تهانينا! لقد أكملت جميع الدروس.",
+            "quizPrompt": "أجب على الاختبار لاختبار معرفتك والحصول على شهادة.",
+            "takeQuiz": "أجب على الاختبار",
+            "courseCompleted": "تم إكمال الدورة والاختبار!",
+            "successMessage": "لقد أكملت الدورة والاختبار بنجاح.",
+            "viewCertificate": "عرض الشهادة"
+        },
+        "sidebar": {
+            "title": "محتوى الدورة",
+            "videos": "فيديوهات",
+            "enrollPrompt": "يجب عليك التسجيل في هذه الدورة للوصول إلى المحتوى الكامل",
+            "viewDetails": "عرض تفاصيل الدورة"
+        },
+        "alerts": {
+            "completePrevious": "يجب عليك إكمال جميع الدروس السابقة قبل الوصول إلى هذا الدرس.",
+            "completeCurrent": "يجب عليك إكمال هذا الدرس قبل الانتقال إلى الدرس التالي.",
+            "completeModules": "يجب عليك إكمال جميع الوحدات السابقة قبل الوصول إلى هذه الوحدة."
+        },
+        "error": {
+            "tokenNotFound": "لم يتم العثور على رمز التحقق"
+        },
+        "verificationn": "التحقق من الوصول باستخدام الرمز:"
+    },
+    "checkout": {
+        "description": "يرجى ملء التفاصيل أدناه لإكمال عملية الشراء.",
+        "titlee": "تفاصيل الدفع",
+        "cardDetails": "تفاصيل البطاقة",
+        "TND": "د.ل",
+        "errorRedirection": "خطأ في التحويل بواسطة Stripe",
+        "redirecting": "يتم التحويل إلى صفحة الدفع...",
+        "errorPaymentt": "يجب عليك تسجيل الدخول لإكمال الدفع",
+        "stripeRedirectionError": "خطأ في التحويل بواسطة Stripe",
+        "errorCertificate": "خطأ في جلب الشهادة",
+        "errorCheckout": "خطأ في الدفع",
+        "errorCheckoutSession": "خطأ في الدفع",
+        "completeError": "خطأ في الدفع",
+        "errorPayment": "حدث خطأ أثناء الدفع",
+        "title": "الدفع",
+        "backToPlans": "العودة للخطط",
+        "orderSummary": "ملخص الطلب",
+        "popularChoice": "الاختيار المفضل",
+        "selectedPlan": "الخطة المختارة",
+        "planPrice": "سعر الخطة",
+        "duration": "المدة",
+        "total": "المجموع",
+        "paymentDetails": "تفاصيل الدفع",
+        "cardNumber": "رقم البطاقة",
+        "expiryDate": "تاريخ الانتهاء",
+        "cvc": "رمز التحقق",
+        "placeholder": "الرجاء ادخال الاسم",
+        "nameOnCard": "الاسم على البطاقة",
+        "securePayment": "معلومات الدفع الخاصة بك آمنة ومشفرة",
+        "processing": "جاري المعالجة...",
+        "pay": "ادفع",
+        "errors": {
+            "noPlan": "لم يتم اختيار خطة",
+            "selectPlan": "الرجاء اختيار خطة اشتراك للمتابعة",
+            "viewPlans": "عرض الخطط",
+            "cardNumber": "يجب أن يتكون رقم البطاقة من 16 رقم",
+            "expiryFormat": "استخدم تنسيق MM/YY",
+            "invalidMonth": "شهر غير صالح",
+            "cardExpired": "انتهت صلاحية البطاقة",
+            "cvc": "يجب أن يتكون رمز التحقق من 3-4 أرقام",
+            "name": "الرجاء إدخال الاسم الكامل",
+            "paymentFailed": "فشل الدفع. الرجاء المحاولة مرة أخرى"
+        }
+    },
+    "paymentSuccess": {
+        "title": "تم الدفع بنجاح!",
+        "thankYou": "شكراً لاشتراكك. تم ترقية حسابك بنجاح إلى:",
+        "plan": "الخطة:",
+        "duration": "المدة:",
+        "amountPaid": "المبلغ المدفوع:",
+        "noDetails": "تفاصيل اشتراكك غير متوفرة.",
+        "startLearning": "ابدأ التعلم",
+        "returnHome": "العودة للرئيسية"
+    },
+    "myCourses": {
+        "title": "دوراتي",
+        "subtitle": "تابع تقدمك واستمر في التعلم",
+        "instructor": "المدرس:",
+        "enrolled": "تاريخ التسجيل:",
+        "progress": "التقدم",
+        "complete": "مكتمل",
+        "courseDataInvalid": "بيانات الدورة غير صالحة:",
+        "lastCompletedLesson": "آخر درس مكتمل",
+        "subscriptionExpired": "لقد انتهت صلاحية اشتراكك. يرجى الاشتراك للمتابعة.",
+        "in": "في",
+        "continueLearning": "استمر في التعلم",
+        "startLearning": "ابدأ التعلم",
+        "details": "التفاصيل",
+        "noCourses": {
+            "title": "لا توجد دورات بعد",
+            "description": "لم تسجل في أي دورة بعد. تصفح كتالوجنا للعثور على الدورات التي تهمك.",
+            "browse": "تصفح الدورات",
+            "browseCourses": "تصفح الدورات",
+            "completed":{
+                "title": "لا يوجد دورات مكتملة بعد",
+                "description": "لم تكمل أي دورة بعد. ابدأ التعلم في أي دورة من خلال التسجيل فيها."
+            },
+            "ongoing":{
+                "title": "لا يوجد دورات قيد التنفيذ بعد",
+                "description": "لم تسجل في أي دورة بعد. تصفح كتالوجنا للعثور على الدورات التي تهمك."
+            }
+        },
+        "unknownCourse": "دورة غير معروفة",
+        "tabs": {
+            "ongoing": "قيد التنفيذ",
+            "completed": "مكتملة"
+        },
+        "viewCertificate": "عرض الشهادة",
+        "takeQuiz": "أجب على الاختبار"
+    },
+    "quiz": {
+        "title": "اختبار:",
+        "duration": "المدة: ",
+        "duration.minutes": "دقيقة",
+        "error": {
+            "tokenNotFound": "لم يتم العثور على رمز التحقق",
+            "noQuizFound": "لم يتم العثور على اختبار لهذه الدورة",
+            "loading": "خطأ في تحميل الاختبار:",
+            "unableToSubmit": "لم يتم تقديم الاختبار - البيانات مفقودة",
+            "quizIdNotAvailable": "معرف الاختبار غير متاح"
+        },
+        
+
+        "timeRemaining": "الوقت المتبقي: ", 
+        "score": "الدرجة: ",
+        "correctAnswers": "لقد أجبت على {correct} من {total} سؤال صحيح" ,
+        "correctAnswers.of": "من",
+        "totalQuestions": "الأسئلة",
+        
+
+        "question": "سؤال ",
+
+        "question.of": "من",
+
+        "instructions": "يرجى الإجابة على جميع الأسئلة. لا يمكنك العودة بعد تقديم إجاباتك.",
+        "navigation": {
+            "previous": "السابق",
+            "next": "التالي",
+            "submit": "تقديم الاختبار"
+        },
+        "progress": {
+            "completed": "تم الإكمال",
+            "inProgress": "قيد التنفيذ",
+            "notStarted": "لم يبدأ"
+        },
+        "results": {
+             "submitted": "تم تقديم الاختبار بنجاح:",
+            "title": "نتائج الاختبار",
+            "score": "الدرجة: ",
+            "correctAnswers": "الأسئلة الصحيحة",
+            "correctAnswers.of": "من",
+            "totalQuestions": "الأسئلة",
+
+            "success": {
+                "title": "تهانينا!",
+                "message": "لقد نجحت في الاختبار."
+            },
+            "failure": {
+                "title": "عذراً!",
+                "message": "لم تنجح في الاختبار. تحتاج إلى 17/20 للنجاح."
+            },
+            "viewCertificate": "عرض شهادتك",
+            "tryAgain": "حاول مرة أخرى",
+            "returnToCourse": "العودة إلى الدورة"
+        },
+        "errors": {
+            "noQuiz": "لم يتم العثور على اختبار لهذه الدورة",
+            "invalidId": "معرف الاختبار غير صالح أو مفقود",
+            "notAvailable": "الاختبار غير متاح",
+            "missingData": "تعذر تقديم الاختبار - البيانات مفقودة",
+            "noQuizId": "معرف الاختبار غير متاح"
+        },
+        "loading": "جاري تحميل الاختبار...",
+        "returnToCourse": "العودة إلى الدورة"
+    },
+    "profile": {
+        "title": "الملف الشخصي",
+        "memberSince": "عضو منذ {date}",
+        "lastUpdated": "آخر تحديث {date}",
+        "accountInfo": {
+            "title": "معلومات الحساب",
+            "editProfile": "تعديل الملف الشخصي",
+            "cancel": "إلغاء",
+            "fullName": "الاسم الكامل",
+            "email": "البريد الإلكتروني",
+          
+            "userId": "معرف المستخدم",
+            "saveChanges": "حفظ التغييرات",
+            "saving": "جاري الحفظ...",
+            "updateSuccess": "تم تحديث ملفك الشخصي بنجاح!",
+            "error": "حدث خطأ أثناء تحديث ملفك الشخصي",
+            "profileImage": {
+                "label": "صورة الملف الشخصي",
+                "selectImage": "اختر صورة",
+                "remove": "إزالة",
+                "recommendation": "مستحسن: صورة مربعة، بتنسيق JPG أو PNG",
+                "changePhoto": "تغيير الصورة"
+            },
+            "password": {
+                "new": "كلمة المرور الجديدة (اتركها فارغة للحفاظ على كلمة المرور الحالية)",
+                "confirm": "تأكيد كلمة المرور الجديدة"
+            },
+            "telephone": "الهاتف",
+            "dateNaissance": "تاريخ الميلاد",
+            "notProvided": "لم يتم توفيره"
+        },
+        "subscription": {
+            "title": "الاشتراك",
+            "noSubscription": "ليس لديك اشتراك نشط",
+            "getSubscription": "الحصول على اشتراك",
+            "plan": "الخطة",
+            "status": "الحالة",
+            "active": "فعال",
+            "inactive": "غير فعال",
+            "startDate": "تاريخ البدء",
+            "expiryDate": "تاريخ الانتهاء",
+            "endDate": "تاريخ الانتهاء",
+            "details": "التفاصيل",
+            "type": "النوع"
+        },
+        "courses": {
+            "title": "دوراتي",
+            "subtitle": "الدورات التي سجلت فيها",
+            "viewAll": "عرض جميع الدورات",
+            "continueLearning": "متابعة التعلم",
+            "startLearning": "ابدأ التعلم",
+            "complete": "مكتمل",
+            "viewAllCourses": "عرض جميع الدورات {count}",
+            "completeJourney": "شاهد رحلة تعلمك الكاملة",
+            "noCourses": {
+                "title": "لا توجد دورات بعد",
+                "description": "لم تسجل في أي دورات بعد",
+                "browse": "تصفح الدورات"
+            }
+        },
+        "actions": {
+            "exploreCourses": "استكشف المزيد من الدورات",
+            "returnHome": "العودة للرئيسية"
+        },
+        "validation": {
+            "fullName": {
+                "required": "الاسم الكامل مطلوب",
+                "error": "حدث خطأ أثناء تحديث ملفك الشخصي",
+                "fetchingSubscription": "حدث خطأ أثناء جلب الاشتراك"
+            },
+            "email": {
+                "required": "البريد الإلكتروني مطلوب",
+                "invalid": "صيغة البريد الإلكتروني غير صالحة"
+            },
+            "telephone": "يجب أن يحتوي رقم الهاتف على 10 أرقام",
+            "dateNaissance": "لا يمكن أن يكون تاريخ الميلاد في المستقبل",
+            "password": {
+                "strength": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل"
+            },
+            "confirmPassword": {
+                "match": "يجب أن تتطابق كلمات المرور"
+            }
+        }
+    },
+    "forgotPassword": {
+        "title": "نسيت كلمة المرور؟",
+        "subtitle": "سجل دخولك للمتابعة في رحلة التعلم",
+        "form": {
+            "backToLogin": "العودة للدخول",
+            "description": "سنساعدك لاسترجاع حسابك بأمان",
+            "email": {
+            
+                "label": "البريد الإلكتروني",
+                "placeholder": "your@email.com",
+                "validation": {
+                    "required": "البريد الإلكتروني مطلوب",
+                    "invalid": "صيغة البريد الإلكتروني غير صالحة"
+                }
+            },
+            "submit": {
+                "sendCode": "إرسال الكود",
+                "sending": "جاري الإرسال...",
+                "backToLogin": "العودة للدخول"
+            }
+        },
+        "secureProcess": "العملية الآمنة",
+        "quickAndEasy": "سريع وسهل",
+        "secureProcessDescription": "أمانك هو أولويتنا. سيتم إرسال الكود فقط إلى عنوان البريد الإلكتروني الخاص بك.",
+        "quickAndEasyDescription": "اتبع التعليمات المرسلة إلى بريدك الإلكتروني لإعادة تعيين كلمة المرور في غضون دقائق."
+    },
+    "verifyCode": {
+        "title": "تحقق من الكود",
+        "subtitle": "أدخل الكود المرسل إلى بريدك الإلكتروني لإعادة تعيين كلمة المرور",
+        "banner": {
+            "title": "تحقق من الكود",
+            "description": "أدخل الكود المرسل إلى بريدك الإلكتروني لإعادة تعيين كلمة المرور",
+            "security": {
+            "title": "أمان",
+            "description": "أمانك هو أولويتنا. الكود سيتم إرساله فقط إلى عنوان البريد الإلكتروني الخاص بك."
+        },
+            "quickAndEasy": {
+            "title": "سريع وسهل",   
+            "description": "اتبع التعليمات المرسلة إلى بريدك الإلكتروني لإعادة تعيين كلمة المرور في غضون دقائق."
+        },
+        "next":{
+            "title": "الخطوة التالية",
+            "description": "أدخل الكود المرسل إلى بريدك الإلكتروني لإعادة تعيين كلمة المرور"
+        }
+        
+    },
+
+    
+  "resetPassword": {
+    "title": "إعادة تعيين كلمة المرور",
+    "subtitle": "أدخل كلمة المرور الجديدة لإعادة تعيين حسابك",
+    "error": "خطأ في إعادة تعيين كلمة المرور:",
+    "error.unableToResetPassword": "لم يتم إعادة تعيين كلمة المرور",
+    "error.passwordsDoNotMatch": "كلمة المرور وتأكيد كلمة المرور غير متطابقين", 
+   
+    "form": {
+      "newPassword": "كلمة المرور الجديدة",
+      "backToLogin": "العودة للدخول",
+      "submit": {
+        "reset": "إعادة تعيين",
+        "resetting": "جاري الإعادة تعيين...",
+        "backToLogin": "العودة للدخول"
+      },
+     
+      "password": {
+        "label": "كلمة المرور",
+        "placeholder": "أدخل كلمة المرور الجديدة",
+        "validation": {
+          "required": "كلمة المرور مطلوبة",
+          "minLength": "يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل"
+        }
+      },
+      "confirmPassword": {
+        "label": "تأكيد كلمة المرور",
+        "placeholder": "أدخل كلمة المرور الجديدة مرة أخرى",
+        "validation": {
+          "required": "كلمة المرور مطلوبة",
+          "match": "يجب أن تتطابق كلمات المرور"
+        }
+      }
+    },
+    "banner": {
+      "title": "إعادة تعيين كلمة المرور",
+      "description": "أدخل كلمة المرور الجديدة لإعادة تعيين حسابك",
+      "security": {
+        "title": "أمان",
+        "description": "أمانك هو أولويتنا. سيتم إرسال الكود فقط إلى عنوان البريد الإلكتروني الخاص بك."
+      },
+      "requirements": {
+        "title": "المتطلبات",
+        "description": "أدخل كلمة المرور الجديدة لإعادة تعيين حسابك"
+      }
+    } ,
+    "errors": {
+      "passwordMismatch": "يجب أن تتطابق كلمات المرور"
+    },
+    "success": {
+     "message": "تم إعادة تعيين كلمة المرور بنجاح! يرجى الدخول."
+    },
+    "validation": {
+      "newPassword": {
+        "required": "كلمة المرور مطلوبة",
+        "minLength": "يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل"
+      },
+      "confirmPassword": {
+        "required": "كلمة المرور مطلوبة",
+        "match": "يجب أن تتطابق كلمات المرور"
+      }
+    },
+    "submit": {
+      "reset": "إعادة تعيين",
+      "resetting": "جاري الإعادة تعيين...",
+      "backToLogin": "العودة للدخول"
+    }
+
+
+  },
+        "form": {
+            "backToForgotPassword": "العودة للدخول",
+            "code": {
+                "label": "الكود",
+                "placeholder": "أدخل الكود",
+               
+                "validation": {
+                    "required": "الكود مطلوب",
+                    "invalid": "كود غير صالح"
+                }
+            },
+            "submit": {
+                "verify": "تحقق",
+                "verifying": "يتم التحقق...",
+                "backToLogin": "العودة للدخول"
+            }
+        }
+    },
+
+    "login": {  
+        "title": "مرحباً بعودتك",
+        "subtitle": "سجل دخولك للمتابعة في رحلة التعلم",
+        "errorUserProcessing": "خطأ في معالجة البيانات المستخدمة:",
+        "errorGoogleConnection": "خطأ في الاتصال بـ Google",
+        "form": {
+            "forgotPassword": "نسيت كلمة المرور؟",
+            "email": {
+                "label": "البريد الإلكتروني",
+                "placeholder": "your@email.com",
+                
+                "validation": {
+                    "required": "البريد الإلكتروني مطلوب",
+                    "invalid": "صيغة البريد الإلكتروني غير صالحة"
+                }
+            },
+            "password": {
+                "label": "كلمة المرور",
+                "validation": {
+                    "required": "كلمة المرور مطلوبة",
+                    "minLength": "يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل"
+                }
+            },
+            "rememberMe": "تذكرني",
+            "submit": {
+                "login": "تسجيل الدخول",
+                "loggingIn": "جاري تسجيل الدخول..."
+            }
+        },
+        "noAccount": {
+            "text": "ليس لديك حساب؟",
+            "signup": "سجل مجاناً"
+        },
+        "social": {
+            "divider": "أو تابع باستخدام",
+            "google": "جوجل"
+        },
+        "banner": {
+            "title": "ابدأ رحلة التعلم",
+            "description": "استفد من مجموعة دوراتنا الواسعة وابدأ التعلم اليوم!"
+        },
+        "errors": {
+            "incorrectCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+            "tokenError": "لم يتم استلام رمز من الخادم"
+        },
+        "learnAtYourOwnPace": {
+            "title": "تعلم بأسلوبك الخاص"
+        
+        },
+        "qualityContent": {
+            "title": "محتوى عالي الجودة"
+        },
+        "flexibleLearning": {
+            "title": "تعلم مرن"
+        },
+        "certifiedCourses": {
+            "title": "دورات معتمدة"
+        } 
+
+    },
+    "signup": {
+        "title": "إنشاء حسابك",
+        "subtitle": "انضم إلى مجتمعنا وابدأ التعلم اليوم",
+        "form": {
+            "name": {
+                "label": "الاسم الكامل",
+                "placeholder": "أدخل اسمك الكامل",
+                "validation": {
+                    "required": "الاسم الكامل مطلوب"
+                }
+            },
+            "email": {
+                "label": "البريد الإلكتروني",
+                "placeholder": "your@email.com",
+                "validation": {
+                    "required": "البريد الإلكتروني مطلوب",
+                    "invalid": "صيغة البريد الإلكتروني غير صالحة"
+                }
+            },
+            "password": {
+                "label": "كلمة المرور",
+                "validation": {
+                    "required": "كلمة المرور مطلوبة",
+                    "minLength": "يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل"
+                }
+            },
+            "confirmPassword": {
+                "label": "تأكيد كلمة المرور",
+                "validation": {
+                    "required": "الرجاء تأكيد كلمة المرور",
+                    "match": "يجب أن تتطابق كلمات المرور"
+                }
+            },
+            "submit": {
+                "create": "إنشاء حساب",
+                "creating": "جاري إنشاء الحساب..."
+            }
+        },
+        "haveAccount": {
+            "text": "هل لديك حساب بالفعل؟",
+            "login": "سجل دخولك هنا"
+        },
+        "banner": {
+            "title": "مرحباً! أهلاً بعودتك.",
+            "description": "أنشئ حساباً لمتابعة جميع دوراتك"
+        }
+    },
+    "certificate": {
+        "title": "شهادة إتمام الدورة",
+        "awardedTo": "تم منح هذه الشهادة إلى",
+        "forCompleting": "لإكمال الدورة بنجاح",
+        "issuedOn": "تاريخ الإصدار",
+        "certificateId": "رقم الشهادة",
+        "errorCertificate": "خطأ في جلب الشهادة",
+        "download": {
+            "button": "تحميل الشهادة",
+            "success": "تم تحميل الشهادة بنجاح!",
+            "error": "خطأ في تحميل الشهادة. يرجى المحاولة مرة أخرى."
+        },
+        "loading": "جاري تحميل الشهادة...",
+        "error": {
+            "title": "خطأ",
+            "message": "خطأ في تحميل الشهادة"
+        },
+        "unknownStudent": "طالب غير معروف",
+        "unknownCourse": "دورة غير معروفة",
+        "instructorSignature": "توقيع المدرب",
+        "certified": "معتمد"
+    },
+    "adminLogin": {
+        "title": "مرحباً بعودتك، المشرف",
+        "subtitle": "سجل دخولك لإدارة لوحة التحكم والمهام الإدارية",
+        "form": {
+            "email": {
+                "label": "البريد الإلكتروني",
+                "placeholder": "your@email.com",
+                "validation": {
+                    "required": "البريد الإلكتروني مطلوب",
+                    "invalid": "صيغة البريد الإلكتروني غير صالحة"
+                }
+            },
+            "password": {
+                "label": "كلمة المرور",
+                "placeholder": "••••••••",
+                "validation": {
+                    "required": "كلمة المرور مطلوبة",
+                    "minLength": "يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل"
+                }
+            },
+            "submit": {
+                "login": "تسجيل الدخول",
+                "loggingIn": "جاري تسجيل الدخول..."
+            }
+        },
+        "banner": {
+            "title": "لوحة تحكم المشرف",
+            "description": "إدارة المستخدمين والمحتوى وإعدادات النظام بأمان من لوحة التحكم الخاصة بك!"
+        },
+        "errors": {
+            "incorrectCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+            "tokenError": "لم يتم استلام رمز من الخادم"
+        }
+    },
+    "adminLayout": {
+        "dashboard": "لوحة التحكم",
+        "ADMIN": "المشرف",
+        "userManagement": "إدارة المستخدمين",
+        "instructors": "المدربين",
+        "students": "الطلاب",
+        "instructorApply": "طلبات المدربين",
+        "category": "التصنيفات",
+        "course": "الدورات",
+        "subscriptions": "الاشتراكات",
+        "review": "التقييمات",
+        "question": "الأسئلة",
+        "logout": "تسجيل الخروج",
+        "admin": "المشرف",
+        "profile": "الملف الشخصي"
+    },
+    "instructorManagement": {
+        "title": "إدارة المدربين",
+        "subtitle": "إدارة مدربي المنصة",
+        "addButton": "إضافة مدرب",
+        "editButton": "تعديل",
+        "viewButton": "عرض",
+        "deleteButton": "حذف",
+        "cancelButton": "إلغاء",
+        "saveButton": "حفظ",
+        "viewModalTitle": "عرض المدرب",
+        "success": {
+            "create": "تم إنشاء المدرب بنجاح!",
+            "update": "تم تحديث بيانات المدرب بنجاح!",
+            "delete": "تم حذف المدرب بنجاح!"
+        },
+        "errorLoading": "حدث خطأ أثناء تحميل المدربين.",
+        "errors": {
+            "noId": "معرّف المدرب غير محدد.",
+            "emailExists": "يوجد مدرب بهذا البريد الإلكتروني بالفعل.",
+            "update": "حدث خطأ أثناء تحديث بيانات المدرب.",
+            "delete": "حدث خطأ أثناء حذف المدرب.",
+            "create": "حدث خطأ أثناء إنشاء المدرب.",
+            "notFound": "المدرب غير موجود.",
+            "noPermission": "ليس لديك صلاحية حذف هذا المدرب."
+        },
+        "table": {
+            "name": "الاسم",
+            "email": "البريد الإلكتروني",
+            "actions": "الإجراءات"
+        },
+        "addModal": {
+            "title": "إضافة مدرب جديد"
+        },
+        "editModal": {
+            "title": "تعديل بيانات المدرب"
+        },
+        "deleteModal": {
+            "title": "حذف المدرب",
+            "confirm": "هل أنت متأكد أنك تريد حذف المدرب {{name}}؟ هذا الإجراء لا يمكن التراجع عنه."
+        },
+        "form": {
+            "name": {
+                "label": "الاسم الكامل",
+                "placeholder": "أدخل الاسم الكامل",
+                "required": "الاسم مطلوب"
+            },
+            "email": {
+                "label": "البريد الإلكتروني",
+                "placeholder": "أدخل البريد الإلكتروني",
+                "required": "البريد الإلكتروني مطلوب",
+                "invalid": "البريد الإلكتروني غير صالح"
+            },
+            "password": {
+                "label": "كلمة المرور",
+                "placeholder": "أدخل كلمة المرور",
+                "required": "كلمة المرور مطلوبة",
+                "min": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل"
+            },
+            "create": "إنشاء",
+            "creating": "جاري الإنشاء..."
+        }
+    },
+    "studentManagement": {
+        "title": "إدارة الطلاب",
+        "subtitle": "إدارة الطلاب على المنصة",
+        "table": {
+            "name": "الاسم",
+            "email": "البريد الإلكتروني",
+            "dateOfBirth": "تاريخ الميلاد",
+            "phone": "الهاتف",
+            "certificate": "الشهادة",
+            "course": "الدورة",
+            "subscription": "الاشتراك",
+            "actions": "الإجراءات",
+            "view": "عرض",
+            "delete": "حذف"
+        },
+        "modals": {
+            "view": {
+                "title": "تفاصيل المتعلم",
+                "name": "الاسم",
+                "email": "البريد الإلكتروني",
+                "dateOfBirth": "تاريخ الميلاد",
+                "phone": "الهاتف",
+                "certificate": "الشهادة",
+                "course": "الدورة",
+                "subscriptionType": "نوع الاشتراك"
+            },
+            "delete": {
+                "title": "تأكيد الحذف",
+                "message": "هل أنت متأكد من رغبتك في حذف المتعلم {name}؟ لا يمكن التراجع عن هذا الإجراء.",
+                "cancel": "إلغاء",
+                "confirm": "حذف"
+            }
+        },
+        "loading": "جاري تحميل المتعلمين...",
+        "error": "خطأ في تحميل المتعلمين",
+        "noLearners": "لم يتم العثور على متعلمين",
+        "notSpecified": "غير محدد",
+        "alerts": {
+            "success": {
+                "deleted": "تم حذف المتعلم بنجاح!"
+            },
+            "error": {
+                "deleting": "خطأ في حذف المتعلم",
+                "notFound": "المتعلم غير موجود",
+                "noPermission": "ليس لديك صلاحية لحذف هذا المتعلم"
+            }
+        }
+    },
+    "instructorApplications": {
+        "title": "طلبات المدربين",
+        "subtitle": "راجع وادرس طلبات الانضمام من المدربين المحتملين.",
+        "loading": "جاري التحميل...",
+        "errorLoading": "تعذر تحميل الطلبات.",
+        "noApplications": "لم يتم العثور على طلبات مدربين.",
+        "errorSendingApplication": "خطأ في إرسال الطلب",
+        "errorResponse": "خطأ في الاستجابة",
+        "statuss": "الحالة",
+        "errorMessage": "خطأ في الرسالة",
+        "errorRequest": "خطأ في الطلب",
+        "table": {
+            "instructor": "المدرب",
+            "speciality": "التخصص",
+            "country": "البلد",
+            "birthDate": "تاريخ الميلاد",
+            "cv": "السيرة الذاتية",
+            "topic": "الموضوع",
+            "status": "الحالة",
+            "actions": "الإجراءات",
+            "view": "عرض",
+            "approve": "قبول",
+            "reject": "رفض"
+        },
+        "status": {
+            "approved": "مقبول",
+            "rejected": "مرفوض",
+            "pending": "قيد الانتظار"
+        },
+        "submit": {
+            "success": "تم تقديم الطلب بنجاح",
+            "redirecting": "جاري التوجيه إلى الصفحة الرئيسية...",
+            "error": {
+                "title": "خطأ",
+                "message": "حدث خطأ أثناء تقديم الطلب"
+            }
+        },
+        "alerts": {
+            "scheduled": "تم جدولة المقابلة بنجاح!",
+            "errorScheduling": "حدث خطأ ما.",
+            "rejected": "تم رفض الطلب بنجاح!",
+            "errorRejecting": "حدث خطأ أثناء رفض الطلب."
+        },
+        "modals": {
+            "details": {
+                "title": "تفاصيل الطلب",
+                "name": "الاسم",
+                "email": "البريد الإلكتروني",
+                "speciality": "التخصص",
+                "country": "البلد",
+                "birthDate": "تاريخ الميلاد",
+                "cv": "السيرة الذاتية",
+                "topic": "الموضوع",
+                "status": "الحالة"
+            },
+            "schedule": {
+                "title": "جدولة مقابلة",
+                "meetLink": "رابط Google Meet",
+                "generate": "توليد",
+                "date": "تاريخ المقابلة",
+                "cancel": "إلغاء",
+                "schedule": "جدولة"
+            }
+        },
+        "pagetitre": "شكراً لاهتمامك بأن تصبح مدربًا. سنراجع طلبك وسنعود إليك خلال 2-3 أيام عمل."
+
+    },
+    "categoryManagement": {
+        "title": "إدارة الفئات",
+        "subtitle": "إدارة فئات المنصة",
+        "addCategory": "إضافة فئة",
+        "errorLoading": "حدث خطأ أثناء تحميل الفئات.",
+        "alerts": {
+            "updated": "تم تحديث الفئة بنجاح!",
+            "deleted": "تم حذف الفئة بنجاح!"
+        },
+        "errors": {
+            "noId": "معرف الفئة غير محدد",
+            "duplicateTitle": "هناك فئة بهذا العنوان بالفعل",
+            "update": "حدث خطأ أثناء تحديث الفئة",
+            "notFound": "الفئة غير موجودة",
+            "noPermission": "ليس لديك إذن لحذف هذه الفئة",
+            "delete": "حدث خطأ أثناء حذف الفئة"
+        },
+        "validation": {
+            "titleRequired": "العنوان مطلوب",
+            "imageRequired": "الصورة مطلوبة"
+        },
+        "table": {
+            "title": "العنوان",
+            "picture": "الصورة",
+            "actions": "الإجراءات",
+            "edit": "تعديل",
+            "delete": "حذف"
+        },
+        "form": {
+            "title": "العنوان",
+            "titlePlaceholder": "أدخل عنوان الفئة",
+            "picture": "الصورة",
+            "exit": "خروج",
+            "save": "حفظ",
+            "creating": "جاري الإنشاء...",
+            "update": "تحديث"
+        },
+        "modals": {
+            "add": {
+                "title": "إضافة فئة"
+            },
+            "edit": {
+                "title": "تعديل الفئة"
+            },
+            "delete": {
+                "title": "حذف الفئة",
+                "message": "هل أنت متأكد أنك تريد حذف الفئة {{name}}؟ هذا الإجراء لا يمكن التراجع عنه.",
+                "cancel": "إلغاء",
+                "confirm": "حذف"
+            }
+        }
+    },
+    "courseStatus": {
+        "title": "إدارة الدورات",
+        "subtitle": "عرض وإدارة الدورات المقدمة من المدربين.",
+        "loading": "جاري التحميل...",
+        "errorLoading": "تعذر تحميل الدورات.",
+        "noCourses": "لم يتم العثور على دورات.",
+        "table": {
+            "name": "الاسم",
+            "image": "الصورة",
+            "category": "الفئة",
+            "description": "الوصف",
+            "level": "المستوى",
+            "language": "اللغة",
+            "status": "الحالة",
+            "actions": "الإجراءات",
+            "view": "عرض",
+            "approve": "قبول",
+            "reject": "رفض",
+            "videos": "الفيديوهات"
+        },
+        "status": {
+            "accepted": "مقبول",
+            "rejected": "مرفوض",
+            "pending": "قيد الانتظار"
+        },
+        "alerts": {
+            "approved": "تمت الموافقة على الدورة بنجاح!",
+            "rejected": "تم رفض الدورة بنجاح!",
+            "errorApprove": "حدث خطأ أثناء الموافقة على الدورة.",
+            "errorReject": "حدث خطأ أثناء رفض الدورة.",
+            "sessionExpired": "انتهت الجلسة. يرجى تسجيل الدخول مرة أخرى."
+        },
+        "modals": {
+            "details": {
+                "title": "تفاصيل الدورة",
+                "category": "الفئة",
+                "description": "الوصف",
+                "level": "المستوى",
+                "language": "اللغة",
+                "modules": "الوحدات",
+                "noModules": "لا توجد وحدات متاحة",
+                "close": "إغلاق",
+                "approve": "قبول",
+                "reject": "رفض",
+                "duration": "المدة"
+            },
+            "video": {
+                "error": "تعذر تحميل الفيديو",
+                "noVideo": "لا يوجد فيديو محدد",
+                "duration": "المدة",
+                "file": "الملف",
+                "browser": "المتصفح لا يدعم مشاهدة الفيديو",
+                "title": "فيديو"
+            }
+        }
+    },
+    "subscriptions": {
+        "title": "إدارة الاشتراكات",
+        "subtitle": "عرض وإدارة الاشتراكات والمدفوعات",
+        "tabs": {
+            "plans": "خطط الاشتراك",
+            "abonnements": "الاشتراكات ",
+            "paiements": "سجل المدفوعات"
+        },
+        "table": {
+            "type": "النوع",
+            "price": "السعر",
+            "duration": "المدة",
+            "offers": "العروض",
+            "actions": "الإجراءات",
+            "edit": "تعديل",
+            "delete": "حذف",
+            "monthly": "شهري",
+            "yearly": "سنوي",
+            "student": "الطالب",
+            "plan": "الخطة",
+            "startDate": "تاريخ البدء",
+            "endDate": "تاريخ الانتهاء",
+            "status": "الحالة",
+            "active": "نشط",
+            "inactive": "غير نشط",
+            "students": "الطلاب",
+            "amount": "المبلغ",
+            "method": "طريقة الدفع",
+            "date": "التاريخ",
+            "view": "عرض",
+            "viewPayment": "عرض ",
+            "interval": "المدة"
+        },
+        "modals": {
+            "add": "إضافة خطة",
+            "edit": "تعديل الخطة",
+            "planType": "نوع الخطة *",
+            "price": "السعر (€) *",
+            "duration": "المدة *",
+            "offers": "العروض",
+            "exit": "خروج",
+            "inProgress": "جاري المعالجة...",
+            "toUpdate": "تحديث",
+            "delete": "هل أنت متأكد من رغبتك في حذف هذه الخطة؟",
+            "interval": "المدة"
+        },
+        "placeholders": {
+            "planType": "مثال: خطة مميزة",
+            "price": "مثال: 19.99",
+            "offers": "مثال: وصول غير محدود، دعم أولوية"
+        },
+        "alerts": {
+            "deleteConfirm": "هل أنت متأكد من رغبتك في حذف هذه الخطة؟",
+            "errorLoading": "خطأ في تحميل البيانات",
+            "errorSaving": "خطأ في حفظ الخطة",
+            "errorDeleting": "خطأ في حذف الخطة"
+        },
+        "unknown": {
+            "plan": "خطة غير معروفة",
+            "user": "مستخدم غير معروف",
+            "email": "بريد إلكتروني غير معروف"
+        }
+    },
+    "userFeedback": {
+        "title": "أسئلة المستخدمين",
+        "subtitle": "إدارة والرد على أسئلة المستخدمين.",
+        "questionsList": "قائمة الأسئلة",
+        "noQuestions": "لم يتم العثور على أسئلة.",
+        "unknownUser": "مستخدم غير معروف",
+        "unknownCourse": "دورة غير معروفة",
+        "responses": "{count} إجابة",
+        "selectQuestion": "اختر سؤالاً لعرض التفاصيل",
+        "details": {
+            "course": "الدورة",
+            "question": "السؤال:",
+            "response": "الإجابة:",
+            "noResponse": "لا توجد إجابة بعد.",
+            "answeredBy": "الإجابة بواسطة"
+        },
+        "loading": "جاري تحميل الأسئلة...",
+        "error": "تعذر تحميل الأسئلة."
+    },
+    "courseReview": {
+        "title": "تقييمات الدورات",
+        "subtitle": "عرض وإدارة تقييمات الدورات من المتعلمين.",
+        "course": "اسم الدورة:",
+        "rating": "تصنيف :",
+        "review": "التقييم",
+        "noReviews": "لم يتم العثور على تقييمات.",
+        "unknownUser": "مستخدم غير معروف",
+        "unknownCourse": "دورة غير معروفة",
+        "loading": "جاري تحميل التقييمات...",
+        "error": "تعذر تحميل التقييمات."
+    },
+    "adminDashboard": {
+        "title": "إحصائيات المنصة",
+        "subtitle": "نظرة عامة على إحصائيات المنصة",
+        "error": "تعذر تحميل الإحصائيات",
+        "cards": {
+            "totalUsers": "إجمالي المستخدمين",
+            "activeSubscriptions": "الاشتراكات النشطة",
+            "totalRevenue": "إجمالي الإيرادات",
+            "totalCourses": "إجمالي الدورات",
+            "categories": "الفئات",
+            "averageRating": "متوسط تقييم الدورات",
+            "totalEnrollments": "إجمالي المسجلين"
+        },
+        "changes": {
+            "usersMonth": "+{{percent}}% هذا الشهر",
+            "activeSubscriptions": "{{percent}}% من المستخدمين",
+            "revenueMonth": "+{{percent}}% هذا الشهر",
+            "coursesMonth": "{{count}} جديد هذا الشهر",
+            "categories": "تنوع المواد",
+            "averageRating": "من 5.0",
+            "enrollments": "{{percent}}% من المستخدمين" ,
+            "totalEnrollments": "{{percent}}% من المستخدمين"}
+    },
+    "adminProfile": {
+        "title": "الإعدادات",
+        "subtitle": "إدارة حسابك وتفضيلاتك",
+        "sidebar": {
+            "menu": "قائمة الإعدادات",
+            "profileInfo": "معلومات الملف الشخصي",
+            "notifications": "تفضيلات الإشعارات"
+        },
+        "profile": {
+            "title": "معلومات الملف الشخصي",
+            "subtitle": "تحديث معلوماتك الشخصية",
+            "fullName": "الاسم الكامل",
+            "image": "الصورة",
+            "email": "البريد الإلكتروني",
+            "newPassword": "كلمة المرور الجديدة",
+            "confirmPassword": "تأكيد كلمة المرور",
+            "changeImage": "تغيير",
+            "removeImage": "حذف",
+            "imageRecommendation": "الحجم الموصى به: 400×400 بكسل. الحجم الأقصى: 1 ميغابايت.",
+            "placeholderName": "اسمك",
+            "placeholderEmail": "بريدك الإلكتروني",
+            "placeholderPassword": "اتركه فارغاً للاحتفاظ بالحالي",
+            "placeholderConfirmPassword": "تأكيد كلمة المرور الجديدة",
+            "save": "حفظ التغييرات",
+            "saving": "جاري الحفظ...",
+            "errorLogin": "يرجى تسجيل الدخول لتعديل الملف الشخصي"
+        },
+        "notifications": {
+            "title": "تفضيلات الإشعارات",
+            "subtitle": "اختر الإشعارات التي ترغب في تلقيها.",
+            "courseEnrollments": "تسجيلات الدورات",
+            "courseFeedback": "ملاحظات الدورات",
+            "newQuestions": "أسئلة جديدة",
+            "promotionalEmails": "رسائل ترويجية",
+            "weeklyDigest": "ملخص أسبوعي",
+            "courseCompletions": "إكمال الدورات",
+            "newEnrollmentTitle": "تسجيل جديد",
+            "newEnrollment": "{{studentName}} سجل في {{courseName}}",
+            "newCourseTitle": "دورة جديدة متاحة",
+            "newCourse": "دورة جديدة متاحة: {{courseName}}",
+            "courseApprovedTitle": "تمت الموافقة على الدورة",
+            "courseApproved": "تمت الموافقة على دورتك {{courseName}}",
+            "noNotifications": "لا توجد إشعارات"
+        },
+        "validation": {
+            "nameRequired": "الاسم مطلوب",
+            "emailRequired": "البريد الإلكتروني مطلوب",
+            "emailInvalid": "البريد الإلكتروني غير صالح",
+            "passwordMin": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل",
+            "passwordsMatch": "يجب أن تتطابق كلمتا المرور"
+        },
+        "success": "تم تحديث الملف الشخصي بنجاح",
+        "error": "حدث خطأ أثناء تحديث الملف الشخصي"
+    },
+    "instructorLayout": {
+        "dashboard": "لوحة التحكم",
+        "myCourses": "دوراتي",
+        "quizzes": "الاختبارات",
+        "errorLoadingProgress": "خطأ في تحميل التقدم:",
+        "question": "سؤال",
+        "review": "مراجعة",
+        "instructor": "المدرب",
+        "logout": "تسجيل الخروج",
+        "profile": "الملف الشخصي",
+        "loggingOut": "تسجيل الخروج...",
+        "thankYou": "شكراً لاستخدام منصتنا. سيتم تحويلك قريباً."
+    },
+    "instructorDashboard": {
+        "title": "لوحة تحكم المدرب",
+        "welcome": "مرحباً، {name}",
+        "metrics": {
+            "coursesCreated": "عدد الدورات المنشأة",
+            "totalStudents": "إجمالي الطلاب المسجلين",
+            "averageRating": "متوسط تقييم الدورات"
+        },
+        "loading": "جاري التحميل...",
+        "error": "خطأ في تحميل بيانات لوحة التحكم.",
+        "loginRequired": "يرجى تسجيل الدخول كمدرب لعرض لوحة التحكم الخاصة بك.",
+        "ratingScale": "/5"
+    },
+    "instructorCourses": {
+        "title": "دوراتي",
+        "subtitle": "إدارة ومتابعة جميع دوراتك",
+        "createNew": "إنشاء دورة جديدة",
+        "table": {
+            "headers": {
+                "courseName": "اسم الدورة",
+                "picture": "الصورة",
+                "description": "الوصف",
+                "category": "الفئة",
+                "level": "المستوى",
+                "language": "اللغة",
+                "modules": "الوحدات",
+                "status": "الحالة",
+                "actions": "الإجراءات"
+            },
+            "loading": "جاري التحميل...",
+            "noCourses": "لم يتم العثور على دورات",
+            "edit": "تعديل",
+            "delete": "حذف"
+        },
+        "status": {
+            "accepted": "مقبول",
+            "rejected": "مرفوض",
+            "pending": "قيد الانتظار"
+        },
+        "deleteModal": {
+            "title": "حذف الدورة",
+            "confirmation": "هل أنت متأكد من رغبتك في حذف \"{name}\"؟ لا يمكن التراجع عن هذا الإجراء.",
+            "cancel": "إلغاء",
+            "confirm": "حذف"
+        },
+        "errors": {
+            "authRequired": "يجب عليك تسجيل الدخول للوصول إلى هذه الصفحة",
+            "loading": "خطأ في تحميل الدورات",
+            "delete": {
+                "invalidId": "لا يمكن حذف هذه الدورة: معرف مفقود أو غير صالح",
+                "sessionExpired": "انتهت الجلسة، يرجى تسجيل الدخول مرة أخرى",
+                "notFound": "الدورة لم تعد موجودة",
+                "noPermission": "ليس لديك إذن لحذف هذه الدورة",
+                "general": "حدث خطأ أثناء حذف الدورة"
+            }
+        },
+        "success": {
+            "deleted": "تم حذف الدورة بنجاح!"
+        }
+    },
+    "courseForm": {
+        "title": {
+            "create": "إنشاء دورة جديدة",
+            "edit": "تعديل الدورة: {name}"
+        },
+        "fields": {
+            "courseTitle": "عنوان الدورة",
+            "courseImage": "صورة الدورة",
+            "category": "الفئة",
+            "level": "المستوى",
+            "language": "اللغة",
+            "description": "الوصف",
+            "modules": "الوحدات",
+            "videoFile": "ملف الفيديو"
+        },
+        "placeholders": {
+            "courseTitle": "أدخل عنوان الدورة",
+            "description": "أدخل وصف الدورة",
+            "moduleTitle": "عنوان الوحدة",
+            "videoTitle": "عنوان الفيديو",
+            "duration": "المدة (مثال: 10:30)"
+        },
+        "validation": {
+            "required": "هذا الحقل مطلوب",
+            "minLength": "يجب أن يكون طول النص {min} أحرف على الأقل",
+            "maxLength": "يجب ألا يتجاوز طول النص {max} أحرف",
+            "invalidDuration": "صيغة المدة غير صالحة (ساعة:دقيقة)",
+            "invalidFormat": "تنسيق غير صالح"
+        },
+        "buttons": {
+            "create": "إنشاء الدورة",
+            "update": "تحديث الدورة",
+            "cancel": "إلغاء",
+            "addModule": "+ إضافة وحدة",
+            "addVideo": "+ إضافة فيديو",
+            "removeModule": "إزالة الوحدة",
+            "removeVideo": "إزالة الفيديو"
+        },
+        "messages": {
+            "loading": "جاري التحميل...",
+            "error": "حدث خطأ",
+            "success": {
+                "create": "تم إنشاء الدورة بنجاح!",
+                "update": "تم تحديث الدورة بنجاح!"
+            },
+            "errors": {
+                "authRequired": "يجب تسجيل الدخول للوصول إلى هذه الصفحة",
+                "sessionExpired": "انتهت الجلسة، يرجى تسجيل الدخول مرة أخرى",
+                "invalidFile": "تنسيق الملف غير صالح",
+                "uploadFailed": "فشل تحميل الملف",
+                "general": "حدث خطأ أثناء حفظ الدورة"
+            }
+        },
+        "formats": {
+            "image": "الصيغ المقبولة: JPG, JPEG, PNG",
+            "video": "الصيغ المقبولة: MP4, AVI, MKV"
+        },
+        "levels": {
+            "beginner": "مبتدئ",
+            "intermediate": "متوسط",
+            "advanced": "متقدم"
+        },
+        "languages": {
+            "en": "الإنجليزية",
+            "ar": "العربية"
+        }
+    },
+    "courseQuizzes": {
+        "title": "اختبارات الدورة",
+        "subtitle": "إنشاء وإدارة الاختبارات لدوراتك",
+        "createNew": "إنشاء اختبار جديد",
+        "loading": "جاري التحميل...",
+        "errors": {
+            "loading": "خطأ في تحميل البيانات",
+            "authRequired": "يجب تسجيل الدخول للوصول إلى هذه الصفحة",
+            "noCourses": "لم تقم بإنشاء أي دورات بعد. قم بإنشاء دورة أولاً لإضافة اختبارات.",
+            "noQuizzes": "لم تقم بإنشاء أي اختبارات لدوراتك بعد."
+        },
+        "table": {
+            "headers": {
+                "question": "السؤال",
+                "options": "الخيارات",
+                "correctAnswer": "الإجابة الصحيحة"
+            },
+            "noOptions": "لا توجد خيارات"
+        },
+        "actions": {
+            "view": "عرض",
+            "edit": "تعديل",
+            "delete": "حذف"
+        },
+        "deleteModal": {
+            "title": "تأكيد الحذف",
+            "message": "هل أنت متأكد من رغبتك في حذف هذا الاختبار؟",
+            "cancel": "إلغاء",
+            "confirm": "حذف"
+        },
+        "alerts": {
+            "success": {
+                "deleted": "تم حذف الاختبار بنجاح!"
+            },
+            "error": {
+                "notFound": "هذا الاختبار لم يعد موجوداً.",
+                "noPermission": "ليس لديك صلاحية لحذف هذا الاختبار.",
+                "general": "خطأ في حذف الاختبار"
+            }
+        }
+    },
+    "createEditQuiz": {
+        "title": {
+            "create": "إنشاء اختبار جديد",
+            "edit": "تعديل الاختبار"
+        },
+        "subtitle": {
+            "create": "إنشاء تقييمات لاختبار معرفة طلابك",
+            "edit": "تحديث التفاصيل والأسئلة لهذا الاختبار"
+        },
+        "note": "ملاحظة: يتطلب النظام 20 سؤالاً بالضبط لكل اختبار.",
+        "quizDetails": {
+            "title": "تفاصيل الاختبار",
+            "course": {
+                "label": "الدورة",
+                "required": "*",
+                "placeholder": "اختر دورة"
+            },
+            "duration": {
+                "label": "المدة (دقائق)",
+                "required": "*",
+                "placeholder": "أدخل المدة",
+                "recommendation": "الوقت الموصى به هو 20 دقيقة لـ 20 سؤالاً."
+            }
+        },
+        "questions": {
+            "title": "الأسئلة ({current}/20)",
+            "status": {
+                "ready": "✓ جميع الأسئلة جاهزة",
+                "needed": "يحتاج إلى {count} أسئلة إضافية"
+            },
+            "question": {
+                "label": "السؤال",
+                "required": "*",
+                "placeholder": "أدخل سؤالك هنا"
+            },
+            "options": {
+                "label": "خيارات الإجابة",
+                "required": "*",
+                "placeholder": "الخيار {number}"
+            },
+            "actions": {
+                "remove": "إزالة",
+                "add": "إضافة سؤال ({current}/20)"
+            }
+        },
+        "buttons": {
+            "create": "إنشاء اختبار",
+            "updating": "جاري التحديث...",
+            "update": "تحديث الاختبار",
+            "creating": "جاري الإنشاء..."
+        },
+        "errors": {
+            "general": "حدث خطأ",
+            "loading": "خطأ في تحميل البيانات",
+            "validation": {
+                "courseRequired": "اختيار الدورة مطلوب",
+                "durationRequired": "مدة الاختبار مطلوبة",
+                "durationMin": "يجب أن تكون مدة الاختبار 5 دقائق على الأقل",
+                "durationMax": "لا يمكن أن تتجاوز مدة الاختبار 180 دقيقة",
+                "questionRequired": "نص السؤال مطلوب",
+                "optionsRequired": "الخيار مطلوب",
+                "minOptions": "يجب وجود خيارين للإجابة على الأقل",
+                "correctAnswerRequired": "يجب اختيار الإجابة الصحيحة",
+                "exactQuestions": "يجب وجود 20 سؤالاً بالضبط"
+            },
+            "api": {
+                "create": "فشل إنشاء الاختبار. يرجى المحاولة مرة أخرى.",
+                "update": "فشل تحديث الاختبار. يرجى المحاولة مرة أخرى.",
+                "duplicate": "يوجد بالفعل اختبار لهذه الدورة.",
+                "invalidData": "بيانات الاختبار غير صالحة.",
+                "server": "خطأ في الخادم. يرجى المحاولة لاحقاً.",
+                "notFound": "لم يتم العثور على الاختبار.",
+                "noPermission": "ليس لديك صلاحية لتنفيذ هذا الإجراء."
+            }
+        },
+        "success": {
+            "create": "تم إنشاء الاختبار بنجاح!",
+            "update": "تم تحديث الاختبار بنجاح!"
+        },
+        "loading": {
+            "initial": "جاري تحميل بيانات الاختبار...",
+            "submitting": "جاري المعالجة..."
+        }
+    },
+    "discussions": {
+        "title": "أسئلة الطلاب",
+        "subtitle": "إدارة والرد على أسئلة طلابك",
+        "alerts": {
+            "notLoggedIn": {
+                "title": "تحذير",
+                "message": "يجب تسجيل الدخول كمدرس لرؤية الأسئلة."
+            },
+            "noCourses": {
+                "title": "معلومات",
+                "message": "لم يتم تعيين أي دورات لك بعد. لا توجد أسئلة لعرضها."
+            }
+        },
+        "list": {
+            "title": "قائمة الأسئلة",
+            "noQuestions": "لم يتم العثور على أسئلة لدوراتك.",
+            "user": "مستخدم غير معروف",
+            "course": "دورة غير معروفة",
+            "status": {
+                "answered": "تم الرد",
+                "pending": "قيد الانتظار"
+            }
+        },
+        "details": {
+            "selectQuestion": "اختر سؤالاً لعرض التفاصيل",
+            "course": "الدورة:",
+            "question": "السؤال:",
+            "response": "الرد:",
+            "form": {
+                "placeholder": "اكتب ردك هنا...",
+                "submit": "إرسال الرد",
+                "submitting": "جاري الإرسال..."
+            },
+            "success": "تم إرسال الرد بنجاح!"
+        },
+        "errors": {
+            "loading": "خطأ في تحميل البيانات",
+            "noResponse": "يرجى إدخال رد قبل الإرسال",
+            "auth": {
+                "missingToken": "رمز المصادقة مفقود. يرجى تسجيل الدخول مرة أخرى.",
+                "expired": "انتهت الجلسة. يرجى تسجيل الدخول مرة أخرى.",
+                "unauthorized": "ليس لديك صلاحية للرد على هذا السؤال."
+            },
+            "submit": "فشل إرسال الرد. يرجى المحاولة مرة أخرى."
+        }
+    },
+    "reviews": {
+        "title": "تقييمات الدورات",
+        "subtitle": "عرض وإدارة تقييمات المتعلمين لدوراتك",
+        "loading": "جاري التحميل...",
+        "error": "خطأ في تحميل التقييمات",
+        "noReviews": "لا توجد تقييمات لدوراتك بعد",
+        "reviewCard": {
+            "unknownUser": "مستخدم غير معروف",
+            "course": "الدورة:",
+            "unknownCourse": "دورة غير معروفة",
+            "date": "التاريخ:"
+        }
+    },
+    "settings": {
+        "title": "الإعدادات",
+        "subtitle": "إدارة حسابك وتفضيلاتك",
+        "sidebar": {
+            "menu": "قائمة الإعدادات",
+            "profileInfo": "معلومات الملف الشخصي",
+            "notifications": "تفضيلات الإشعارات"
+        },
+        "profile": {
+            "title": "معلومات الملف الشخصي",
+            "subtitle": "تحديث معلوماتك الشخصية",
+            "image": {
+                "change": "تغيير",
+                "remove": "إزالة",
+                "recommendation": "مستحسن: صورة مربعة، بتنسيق JPG أو PNG. الحجم الأقصى: 1MB."
+            },
+            "form": {
+                "fullName": "الاسم الكامل",
+                "email": "البريد الإلكتروني",
+                "newPassword": "كلمة المرور الجديدة",
+                "confirmPassword": "تأكيد كلمة المرور",
+                "birthDate": "تاريخ الميلاد",
+                "phone": "الهاتف",
+                "speciality": "التخصص",
+                "placeholders": {
+                    "name": "اسمك",
+                    "email": "بريدك الإلكتروني",
+                    "password": "اتركه فارغاً للحفاظ على كلمة المرور الحالية",
+                    "confirmPassword": "تأكيد كلمة المرور الجديدة"
+                }
+            },
+            "buttons": {
+                "save": "حفظ التغييرات",
+                "saving": "جاري الحفظ..."
+            },
+            "errors": {
+                "loginRequired": "يرجى تسجيل الدخول لتعديل ملفك الشخصي",
+                "nameRequired": "الاسم مطلوب",
+                "emailRequired": "البريد الإلكتروني مطلوب",
+                "emailInvalid": "بريد إلكتروني غير صالح",
+                "passwordMin": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+                "passwordsMatch": "يجب أن تتطابق كلمات المرور",
+                "birthDateRequired": "تاريخ الميلاد مطلوب",
+                "specialityRequired": "التخصص مطلوب"
+            },
+            "success": "تم تحديث الملف الشخصي بنجاح"
+        }
+    },
+    "instructorLogin": {
+        "title": "مرحباً بك أستاذ",
+        "subtitle": "سجل دخولك إلى مساحتك الشخصية",
+        "form": {
+            "email": {
+                "label": "عنوان البريد الإلكتروني",
+                "placeholder": "بريدك@الإلكتروني.com",
+                "validation": {
+                    "required": "البريد الإلكتروني مطلوب",
+                    "invalid": "بريد إلكتروني غير صالح"
+                }
+            },
+            "password": {
+                "label": "كلمة المرور",
+                "placeholder": "••••••••",
+                "validation": {
+                    "required": "كلمة المرور مطلوبة",
+                    "minLength": "يجب أن تكون كلمة المرور 6 أحرف على الأقل"
+                }
+            },
+            "submit": {
+                "login": "تسجيل الدخول",
+                "loggingIn": "جاري تسجيل الدخول..."
+            }
+        },
+        "banner": {
+            "title": "مرحباً بك في منطقة المعلم",
+            "description": "إدارة دوراتك وطلابك وتتبع أنشطتك التعليمية"
+        },
+        "errors": {
+            "incorrectCredentials": "بريد إلكتروني أو كلمة مرور غير صحيحة",
+            "invalidResponse": "استجابة غير صالحة من الخادم",
+            "missingToken": "رمز مفقود في استجابة الخادم",
+            "missingId": "معرف الأستاذ مفقود في استجابة الخادم",
+            "general": "حدث خطأ أثناء تسجيل الدخول"
+        }
+    },
+    "contactPage": {
+        "title": "اتصل بنا",
+        "subtitle": "فريقنا هنا لمساعدتك في أي سؤال أو دعم.",
+        "subscribe": "اشترك الآن",
+        "sendEmail": "إرسال البريد الإلكتروني",
+        "contactInfo": "معلومات الاتصال",
+        "email": "البريد الإلكتروني",
+        "emailDesc": "أرسل لنا رسالة في أي وقت",
+        "whatsapp": "واتساب",
+        "whatsappDesc": "تحدث معنا على واتساب",
+        "phone": "الهاتف",
+        "phoneDesc": "تحدث مع فريق الدعم لدينا",
+        "location": "موقعنا",
+        "address": " دبي - الإمارة العربية المتحدة",
+        "businessHours": "ساعات العمل",
+        "businessHoursValue": "24/24 و 7/7",
+        "aboutTitle": "حول منصتنا للتعلم الإلكتروني",
+        "mission": "مهمتنا",
+        "missionDesc": "جعل التعليم متاحًا للجميع من خلال دورات عالية الجودة.",
+        "vision": "رؤيتنا",
+        "visionDesc": "أن نصبح المنصة الرائدة للتعلم عبر الإنترنت في المغرب وأفريقيا.",
+        "values": "قيمنا",
+        "valuesDesc": "التميز، الابتكار، والالتزام بنجاح المتعلمين.",
+        "followUs": "تابعنا",
+        "responseTime": "زمن الاستجابة",
+        "responseTimeDesc": "نرد عادة خلال 24 ساعة في أيام العمل",
+        "supportHours": "ساعات الدعم",
+        "supportHoursDesc": "دعم مباشر متوفر 24/24 و 7/7",
+        "learnMore": "تعرف على المزيد عننا",    
+        "connectWithUs": "تواصل معنا",
+        "aboutPlatform": "حول منصتنا للتعلم الإلكتروني",
+        "aboutPlatformDesc": "نحن ملتزمون بتقديم دورات عالية الجودة عبر الإنترنت تجعل التعليم متاحًا للجميع.",
+        "startChat": "ابدأ المحادثة",
+        "callNow": "اتصل الآن",
+        "viewLargerMap": "عرض الخريطة بأكبر حجم"
+    }
+   
+    }

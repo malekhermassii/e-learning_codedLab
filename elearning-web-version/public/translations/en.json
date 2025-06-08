@@ -1,0 +1,1908 @@
+{
+  "navbar": {
+    "menu": {
+      "home": "Home",
+      "courses": "Courses",
+      "contact": "Contact",
+      "toast": {
+        "success": "Payment successful! Your subscription is now active.",
+        "error": "Payment failed. Please try again."
+      },
+      "openMainMenu": "Open main menu",
+      "notifications": {
+        "title": "Notifications",
+        "noNotifications": "No notifications",
+        "newEnrollement": "New enrollment: {{studentName}} enrolled in {{courseName}}",
+        "newCourse": "New course available: {{courseName}}",
+        "courseApproved": "Course approved: {{courseName}}",
+        "newEnrollmentTitle": "New Enrollment",
+        "newCourseTitle": "New Course Available"
+      }
+    },
+   
+    "notifications": {
+      "title": "Notifications",
+      "noNotifications": "No notifications",
+      "newEnrollement": "New enrollment: {{studentName}} enrolled in {{courseName}}",
+      "newCourse": "New course available: {{courseName}}",
+      "courseApproved": "Course approved: {{courseName}}",
+      "newEnrollmentTitle": "New Enrollment",
+      "newCourseTitle": "New Course Available"
+    },
+    "auth": {
+      "signIn": "Sign In",
+      "signOut": "Sign Out",
+      "profile": "Your Profile",
+      "editProfile": "Edit Profile",
+      "myCourses": "My Courses",
+      "registrationError": "Registration error:"
+    },
+    "language": {
+      "english": "English",
+      "arabic": "Arabic"
+    }
+  },
+  "hero": {
+    "title": "The Best Platform Enroll in Your Special Course",
+    "subtitle": "Our mission is to help people to find the best course - online and learn with expert anywhere",
+    "subscribe_button": "Subscribe Now"
+  },
+  "categories": {
+    "explore_categories": "Explore Our Categories",
+    "scroll_left": "Scroll Left",
+    "scroll_right": "Scroll Right",
+    "loading": "Loading..."
+  },
+  "whoIsElearning": {
+    "title": "who we are",
+    "description": "We aim to empower individuals by providing accessible, high-quality education tailored to the needs of learners and professionals seeking to grow in a fast-evolving digital world. Through our innovative platform, we connect experts and students to inspire lifelong learning and unlock new opportunities for success.",
+    "ourTeachers": "Our Instructors",
+    "loading": "Loading..."
+  },
+  "recommendation": {
+    "title": "Recommended Courses",
+    "subtitle": "Courses tailored to your interests and learning style",
+    "loading": "Loading...",
+    "error": "Error loading recommendations",
+    "noRecommendations": "No recommendations available at the moment",
+    "failedToFetchApprenant": "Failed to fetch apprenant:",
+    "failedToFetchRecommendations": "Apprenant not found for this user.",
+    "failedToFetchRecommendationss": "Failed to fetch recommendations:",
+    "noRecommendationsFound": "No recommendations found based on your profile.",
+    "fetchError": "Fetch error:",
+    "fetchErrorRecommendations": "An error occurred while fetching recommendations.",
+    "errorCourseId": "Error: Course ID missing!",
+    "language": "Language :",
+    "level": "Level :",
+    "viewCourse": "Start Course"
+
+  },
+
+  "userTypes": {
+    "instructor": {
+      "title": "FOR INSTRUCTORS",
+      "buttonText": "Start a class today"
+    },
+    "student": {
+      "title": "FOR STUDENTS",
+      "buttonText": "Start Now"
+    }
+  },
+  "popularCourses": {
+    "title": "Get Started with These Courses",
+    "seeAll": "See All",
+    "loading": "Loading courses...",
+    "error": "Error loading courses:",
+    "courseCard": {
+        "startCourse": "View Course",
+        "languages": "Languages",
+        "students": "Students",
+        "level": "Level"
+    }
+},
+  "pricing": {
+    "title": "Choose Your Plan",
+    "description": "Select the perfect learning plan that suits your needs. All plans include unlimited access to our course library.",
+    "features": {
+      "unlimitedAccess": "Unlimited Access",
+      "learnAnytime": "Learn Anytime, Anywhere",
+      "certification": "Certification After Completion",
+      "webMobile": "Access via Web & Mobile",
+      "quiz": "Access to Quizzes"
+    },
+    "planNames": {
+      "Monthly": "Month",
+      "Yearly": "Year"
+      
+    },
+    "alert": {
+      "alreadyHaveSubscription": "You already have an active subscription"
+    },
+    "subscribe": "Subscribe Now",
+    "perMonth": "Per Month",
+    "perYear": "Per Year",
+       
+    "save": "Save",
+    "currency": "TND"
+  },
+  "successStats": {
+    "title": "Our Success",
+    "students": "Students",
+    "courses": "Quality Courses",
+    "experience": "Years of Experience",
+    "achievements": "Achievements"
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Subscribe to get our Newsletter",
+      "placeholder": "Your Email",
+      "button": "Subscribe"
+    },
+    "download": {
+      "title": "Download our app :"
+    },
+    "copyright": "© 2025 CodedLab."
+  },
+  "subscribe": {
+    "title": "Find the pricing plan that suits you",
+    "description": "Watch most courses with a monthly or yearly subscription.Continue to develop effectively with our expert trainers in various fields.",
+    "loading": "Loading plans...",
+    "error": "Error loading plans",
+    "selectPlan": "Please select a plan first",
+    "features": {
+      "unlimitedAccess": "Unlimited access",
+      "learnAnytime": "Learn anytime, anywhere",
+      "certification": "Certification after completion",
+      "webMobile": "Access via web & mobile",
+      "quiz": "Access the quiz"
+    },
+    "planCard": {
+      "whatsIncluded": "WHAT'S INCLUDED",
+      "save": "Save",
+      "subscribe": "Subscribe",
+      "selectToSubscribe": "Select to subscribe",
+        "currency": "TND",
+        "perMonth": "Per Month",
+        "perYear": "Per Year"
+    }
+  },
+  "instructorApplication": {
+    "title": "Join Our Teaching Community",
+    "subtitle": "Share your expertise with students worldwide and become part of our growing community of educators.",
+    "personalInfo": {
+      "title": "Personal Information",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "country": "Country",
+      "birthDate": "Birth Date"
+    },
+    "professionalInfo": {
+      "title": "Professional Information",
+      "speciality": "Area of Specialty",
+      "topics": "Topics You Want to Teach",
+      "birthDatePlaceholder": "dd/mm/yyyy",
+      "cv": {
+        "label": "Upload CV",
+        "required": "CV is required",
+        "selected": "Selected file:"
+      }
+    },
+    "validation": {
+      "name": {
+        "min": "Name must be at least 3 characters",
+        "required": "Full name is required"
+      },
+      "email": {
+        "invalid": "Invalid email format",
+        "required": "Email is required"
+      },
+      "country": "Country is required",
+      "speciality": "Area of specialty is required",
+      "birthDate": "Birth date is required",
+      "topics": "Teaching topics are required",
+      "cv": "Please upload your CV"
+    },
+    "submit": {
+      "button": "Submit Application",
+      "processing": "Processing...",
+      "success": {
+        "title": "Application Submitted!",
+        "message": "Thank you for your interest in becoming a mentor. We'll review your application and get back to you within 2-3 business days.",
+        "redirecting": "Redirecting to home page...",
+        "success": "Your application has been submitted successfully"
+      },
+      "error": {
+        "title": "Error",
+        "noResponse": "No response received from server. Please check your connection.",
+        "unknown": "An error occurred while sending your application"
+      }
+    }
+    
+  },
+  "contact": {
+    "title": "Watch Unlimited",
+    "subtitle": "Courses with just a click!",
+    "subscribeButton": "Subscribe Now",
+    "reachUs": "Reach us",
+    "whatsapp": {
+      "title": "Whatsapp",
+      "description": "Send a whatsapp message"
+    },
+    "email": {
+      "title": "Email",
+      "description": "Send an email to"
+    },
+    "instagram": {
+      "title": "Instagram",
+      "description": "Send a direct message to"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "Contact with us on LinkedIn"
+    }
+  },
+  "courses": {
+    "title": "Get choice of your course",
+    "description": "Your next big opportunity starts with the right course. Browse expert-led programs across every domain",
+    "loading": "Loading courses...",
+    "error": "Error:",
+    "results": {
+      "showing": "Showing",
+      "course": "course",
+      "courses": "courses",
+      "matching": "matching",
+      "noResults": "No courses found matching",
+      "clearSearch": "Clear search"
+    },
+    "filters": {
+      "title": "Filters",
+      "category": "Category",
+      "level": "Level",
+      "allLevels": "All Levels",
+      "language": "Language",
+      "allLanguages": "All Languages",
+      "allCategories": "All Categories",
+      "search": "Search",
+      "searchPlaceholder": "Search for a course",
+      "apply": "Apply",
+      "reset": "Reset",
+      "clearFilters": "Clear Filters"
+
+    },
+    "search": {
+      "title": "Find Your Perfect Course",
+      "placeholder": "Search your favorite Course",
+      "button": "Search"
+    }
+  },
+  "courseDetails": {
+    "loading": "Loading course details...",
+    "subscriptionExpired": "Your subscription has expired. Please subscribe to continue learning.",
+    "error": {
+      "title": "Error Loading Course",
+      "message": "Could not load course details. Please try again later.",
+      "notFound": "Course not found"
+    },
+    "errorCheckingQuiz": "Error checking quiz:",
+    "errorProgress": "Error initializing progress:",
+    "initializingProgress": "Initializing progress for video :",
+    "errorCheckingCourseAndQuizStatus": "Error checking course and quiz status:",
+  
+    "progress": {
+      "title": "Progress"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "qa": "Q & A",
+      "reviews": "Reviews"
+    },
+    "about": {
+      "title": "About this course",
+      "curriculum": "Course Curriculum",
+      "lessons": "lessons",
+      "minutes": "min",
+      "createdBy": "Created by instructor",
+      "nameprof": "Name:",
+      "speciality": "Speciality"
+    },
+   
+    "qa": {
+      "title": "Questions and Answers",
+      "noQuestions": "No questions yet.",
+      "form": {
+        "placeholder": "Ask your question here...",
+        "submit": "Send question",
+        "notEnrolled": "You must be enrolled in the course to ask questions."
+       
+      },
+      "mustBeEnrolled": "You must be enrolled in the course to ask questions.",
+      "pleaseEnterQuestion": "Please enter a question.",
+      "questionSubmittedSuccessfully": "Question submitted successfully!",
+      "errorSendingQuestion": "Error sending question.",
+      "errorSendingReview": "Error sending review."
+    },
+    "reviews": {
+      "title": "Student Reviews",
+      "noReviews": "No reviews yet.",
+      "form": {
+        "title": "Leave your review",
+        "rating": "Your rating",
+        "content": "Your review",
+        "placeholder": "Share your experience with this course...",
+        "submit": "Submit review",
+        "notEnrolled": "You must be enrolled to leave a review.",
+        "enrollNow": "Enroll now"
+      },
+      "pleaseWriteCommentAndRate": "Please write a comment and rate",
+      "errorSendingReview": "Error sending review.",
+      "success": "Your review has been added successfully"
+     
+
+    },
+    "sidebar": {
+      "duration": "Duration:",
+      "level": "Level :",
+      "language": "Language :",
+      "students": "Students :",
+      "rating": "Rating :",
+      "continueLearning": "Continue Learning",
+      "enrollNow": "Enroll Now",
+      "processing": "Processing...",
+      "lessons": "Lessons :"
+    },
+    "videoModal": {
+      "close": "Close",
+      "yourBrowserDoesNotSupportVideo": "Your browser does not support video playback."
+    },
+    "enroll": {
+      "title": "Enroll",
+      "loading": "Processing...",
+      "success": "Enrolled successfully",
+      "error": "Error enrolling"
+    },
+    
+    "enrollSuccess": "You are now registered for the course",
+    "enrollSuccessNotification": "Successful registration",
+    "errorLoadingUserData": "Error loading user data:",
+    "authenticationTokenNotFound": "Authentication token not found",
+    "subscriptionNotFound": "Subscription not found or expired!",
+    "unknownError": "Unknown error during enrollment",
+    "detailedError": "Detailed error while registering:",
+    "errorEnroll": "An error occurred during registration. Please try again.",
+    "errorVerifyingRegistration": "Error verifying registration:"
+  },
+
+  "enrollmentSuccess": {
+    "title": "Enrollment Successful",
+    "subtitle": "You are now enrolled in the course",
+    "subtitle2": "You've successfully enrolled in a course.",
+    "startLearning": "Start Learning",
+    "startLearningButton": "Start Learning",
+    "browseCourses": "Browse Courses",
+    "viewProfile": "View My Profile",
+ 
+
+    "error": {
+      "courseFetch": "Error fetching course data"
+    },
+    "modules": "Modules",
+    "level": "Level"  ,
+    "allLevels": "All Levels",
+    "course": "Course"
+  },
+
+  "courseContent": {
+    "loading": "Loading course content...",
+    "verification": "Verification of access...",
+    "header": {
+      "sections": "Sections",
+      "duration": "Duration"
+    },
+    "progress": {
+      "title": "Your Progress",
+      "videoProgress": "Video Progress"
+    },
+    "progression": "Progression retrieved successfully",
+    "errorProgression": "Error loading progression",
+   
+    "lesson": {
+      "module": "Module",
+      "lesson": "Lesson",
+      "of": "of",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "quiz": {
+      "authRequired": "You must be logged in to take the quiz",
+      "enrollmentRequired": "You must be enrolled in this course to take the quiz",
+      "completeCourseFirst": "You must complete all lessons before taking the quiz",
+      "notAvailable": "No quiz is available for this course",
+      "error": {
+        "tokenNotFound": "Authentication token not found",
+        "noQuizFound": "No quiz found for this course",
+        "loading": "Error loading quiz:",
+        "unableToSubmit": "Unable to submit quiz - missing data",
+        "quizIdNotAvailable": "Quiz ID not available"
+      },
+      "results": {
+        "submitted": "Quiz results submitted successfully:"
+      }
+    },
+    "completion": {
+      "congratulations": "Congratulations! You have completed all lessons.",
+      "quizPrompt": "Take the quiz to test your knowledge and get your certificate.",
+      "takeQuiz": "Take Quiz",
+    
+      "courseCompleted": "Course and Quiz Completed!",
+      "successMessage": "You have successfully completed the course and quiz.",
+      "viewCertificate": "View Certificate"
+    },
+    "sidebar": {
+      "title": "Course Content",
+      "videos": "Videos",
+      "enrollPrompt": "You need to enroll in this course to access the full content",
+      "viewDetails": "View Course Details"
+    },
+    "alerts": {
+      "completePrevious": "You need to complete all previous lessons before accessing this lesson.",
+      "completeCurrent": "You need to complete this lesson before moving to the next one.",
+      "completeModules": "You need to complete all previous modules before accessing this module."
+    },
+    "error": {
+      "tokenNotFound": "Authentication token not found"
+    },
+    "verificationn": "Verification of access with the token:"
+  },
+
+  "checkout": {
+    "description": "Enter your credit card information to complete your payment. All transactions are secure and encrypted.",
+    "titlee": "Payment Details",
+    "cardDetails": "Card Details",
+    "TND": "TND",
+    "stripeRedirectionError": "Stripe redirection error:",  
+    "errorCertificate": "Error retrieving certificate",
+    "errorCheckout": "Error checking out",
+    "errorPaymentt": "You must be logged in to make a payment.",
+    "errorRedirection": "Error redirecting to Stripe:",
+  
+    "title": "Checkout",
+    "backToPlans": "Back to Plans",
+    "orderSummary": "Order Summary",
+    "total": "Total",
+    "popularChoice": "POPULAR CHOICE",
+    "selectedPlan": "SELECTED PLAN",
+    "planPrice": "Plan Price",
+    "duration": "Duration",
+    "completeError": "Complete error:",
+    "errorPayment": "An error occurred during payment",
+    "redirecting": "Redirection to payment page...",
+    "paymentDetails": "Payment Details",
+    "cardNumber": "Card Number",
+    "expiryDate": "Expiry Date",
+    "cvc": "CVC",
+    "placeholder": "Please enter your name",
+    "nameOnCard": "Name on Card",
+    "securePayment": "Your payment information is secure and encrypted",
+    "processing": "Processing...",
+    "pay": "Pay",
+    "errors": {
+      "noPlan": "No Plan Selected",
+      "selectPlan": "Please select a subscription plan to proceed with checkout.",
+      "viewPlans": "View Plans",
+      "cardNumber": "Card number must be 16 digits",
+      "expiryFormat": "Use MM/YY format",
+      "invalidMonth": "Invalid month",
+      "cardExpired": "Card has expired",
+      "cvc": "CVC must be 3-4 digits",
+      "name": "Please enter your full name",
+      "paymentFailed": "Payment failed. Please try again."
+    }
+  },
+  "paymentSuccess": {
+    "title": "Payment Successful!",
+    "thankYou": "Thank you for your subscription. Your account has been successfully upgraded to:",
+    "plan": "Plan:",
+    "duration": "Duration:",
+    "amountPaid": "Amount Paid:",
+    "noDetails": "Your subscription details are not available.",
+    "startLearning": "Start Learning",
+    "returnHome": "Return Home"
+  },
+  "myCourses": {
+    "title": "My Courses",
+    "subtitle": "Track your progress and continue learning",
+    "instructor": "Instructor:",
+    "enrolled": "Enrolled:",
+    "progress": "Progress",
+    "complete": "Complete",
+    "courseDataInvalid": "Course data is invalid:",
+    "subscriptionExpired": "Your subscription has expired. Please subscribe to continue learning.",
+
+    "lastCompletedLesson": "Last completed lesson",
+    "in": "in",
+    "continueLearning": "Continue Learning",
+    "startLearning": "Start Learning",
+    "details": "Details",
+    "noCourses": {
+      "title": "No Courses Yet",
+      "description": "You haven't enrolled in any courses yet. Browse our catalog to find courses that interest you.",
+      "browse": "Browse Courses",
+      "browseCourses": "Browse Courses",
+      "completed":{
+        "title": "No completed courses yet",
+        "description": "You haven't completed any courses yet. Start learning today and complete your first course."
+      },
+      "ongoing":{
+        "title": "No ongoing courses yet",
+        "description": "You haven't started any courses yet. Browse our catalog to find courses that interest you."
+      }
+        
+    },
+    "unknownCourse": "Unknown Course",
+    "tabs": {
+      "ongoing": "Ongoing",
+      "completed": "Completed"
+    },
+    "viewCertificate": "View Certificate",
+    "takeQuiz": "Take Quiz"
+  },
+  "quiz": {
+    "title": "Quiz: {courseName}",
+    "duration": "Duration: ",
+    "duration.minutes": "minutes",
+    "timeRemaining": "Time Remaining : ",
+    "question": "Question ",
+    "question.of": "of",
+    "instructions": "Please answer all questions. You cannot go back after submitting your answers.",
+    "navigation": {
+      "previous": "Previous",
+      "next": "Next",
+      "submit": "Submit Quiz"
+    },
+    "progress": {
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "notStarted": "Not Started"
+    },
+    "results": {
+      "title": "Quiz Results",
+      "score": "Score",
+      "details": "Details",
+      "totalQuestions": "Total Questions",
+      "correctAnswers": "Correct Answers",
+      "timeSpent": "Time Spent",
+      "minutes": "minutes",
+      "success": {
+        "message": "Congratulations! You passed the quiz."
+      },
+      "failure": {
+        "message": "Sorry! You did not pass the quiz. You need 17/20 to pass."
+      },
+      "viewCertificate": "View Your Certificate",
+      "tryAgain": "Try Again",
+      "returnToCourse": "Return to Course"
+    },
+    "errors": {
+      "noQuiz": "No quiz found for this course",
+      "invalidId": "Invalid or missing quiz ID",
+      "notAvailable": "Quiz not available",
+      "missingData": "Unable to submit quiz - missing data",
+      "noQuizId": "Quiz ID not available"
+    },
+    "loading": "Loading quiz...",
+    "returnToCourse": "Return to Course"
+  },
+  "profile": {
+    "title": "Profile",
+    "memberSince": "Member since {date}",
+    "lastUpdated": "Last updated {date}",
+    "accountInfo": {
+      "title": "Account Information",
+      "editProfile": "Edit Profile",
+      "cancel": "Cancel",
+      "fullName": "Full Name",
+      "notProvided": "Not provided",
+      "email": "Email",
+      "userId": "User ID",
+      "saveChanges": "Save Changes",
+      "saving": "Saving...",
+      "telephone": "Phone Number",
+      "dateNaissance": "Birth Date",
+      
+      
+      "updateSuccess": "Your profile has been updated successfully!",
+      "profileImage": {
+        "label": "Profile Image",
+        "selectImage": "Select Image",
+        "remove": "Remove",
+        "recommendation": "Recommended: Square image, JPG or PNG format",
+        "changePhoto": "Change Photo",
+        "error": "Error updating profile",
+        "success": "Profile updated successfully"
+      },
+      "password": {
+        "new": "New Password",
+        "confirm": "Confirm New Password"
+      }
+    },
+    "subscription": {
+      "title": "Subscription",
+      "noSubscription": "You don't have an active subscription",
+      "getSubscription": "Get a Subscription",
+      "plan": "Plan",
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "startDate": "Start Date",
+      "expiryDate": "Expiry Date",
+      "details": "Details",
+      "type": "Type",
+      "endDate": "End Date"
+    },
+    "courses": {
+      "title": "My Courses",
+      "subtitle": "Courses you've enrolled in",
+      "viewAll": "View All Courses",
+      "continueLearning": "Continue Learning",
+      "startLearning": "Start Learning",
+      "complete": "Complete",
+      "viewAllCourses": "View All {count} Courses",
+      "completeJourney": "See your complete learning journey",
+      "noCourses": {
+        "title": "No Courses Yet",
+        "description": "You haven't enrolled in any courses yet",
+        "browse": "Browse Courses"
+      }
+    },
+    "actions": {
+      "exploreCourses": "Explore More Courses",
+      "returnHome": "Return to Home"
+    },
+    "validation": {
+      "fullName": {
+        "required": "Full name is required"
+      },
+      "error": "Error updating profile",
+      "fetchingSubscription": "Error fetching subscription",
+
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid email address"
+      },
+      "telephone": "Phone number must be 10 digits",
+      "dateNaissance": "Birth date cannot be in the future",
+      "password": {
+        "strength": "Password must be at least 6 characters"
+      },
+      "confirmPassword": {
+        "match": "Passwords must match"
+      }
+    }
+   
+  },
+
+
+
+
+  "login": {
+    "title": "Welcome back",
+    "subtitle": "Log in to your account to continue your learning journey",
+    "errorUserProcessing": "Error processing user data:",
+    "errorGoogleConnection": "Error connecting with Google",
+    "form": {
+      "forgotPassword": "Forgot Password?",
+      "email": {
+        "label": "Email Address",
+        "placeholder": "your@email.com",
+        
+        "validation": {
+          "required": "Email is required",
+          "invalid": "Invalid email"
+        }
+      },
+      "password": {
+        "label": "Password",
+        "validation": {
+          "required": "Password is required",
+          "minLength": "Password must be at least 6 characters"
+        }
+      },
+      "rememberMe": "Remember me",
+      "submit": {
+        "login": "Log in",
+        "loggingIn": "Logging in..."
+      }
+    },
+    "noAccount": {
+      "text": "Don't have an account?",
+      "signup": "Sign up for free"
+    },
+    "social": {
+      "divider": "Or continue with",
+      "google": "Google"
+    },
+    "banner": {
+      "title": "Start your learning journey",
+      "description": "Access our wide range of courses and start learning today!"
+    },
+    "errors": {
+      "incorrectCredentials": "Incorrect email or password",
+      "tokenError": "Token not received from server"
+    },
+    "learnAtYourOwnPace":{ "title": "Learn at your own pac"
+  
+    },
+    "qualityContent": { "title": "Quality Content"
+   
+    },
+    "flexibleLearning": { "title": "Flexible Learning"},
+   
+    "certifiedCourses": { "title": "Certified courses by experts"}
+
+  },
+
+
+"forgotPassword": {
+  "title": "Forgot Password",
+  "subtitle": "Enter your email to receive a reset code",
+  "form": {
+    "backToLogin": "Back to Login",
+    "description": "We'll help you recover your account securely",
+    "email": {
+      "label": "Email Address",
+      "placeholder": "your@email.com",
+      "validation": {
+        "required": "Email is required",
+        "invalid": "Invalid email address"
+      }
+    },
+    "submit": {
+      "sendCode": "Send Code",
+      "sending": "Sending...",
+      "backToLogin": "Back to Login"
+    },
+    "secureProcess": "Secure Process",
+    "quickAndEasy": "Quick and Easy",
+    "secureProcessDescription": "Your security is our priority. The reset code will be sent only to your email address.",
+    "quickAndEasyDescription": "Follow the instructions sent to your email to reset your password in just a few minutes."
+  }},
+  "verifyCode": {
+    "title": "Verify Code",
+    "subtitle": "Enter the code sent to your email to reset your password",
+   "banner": {
+    "title": "Verify Code",
+    "description": "Enter the code sent to your email to reset your password",
+    "security": {
+      "title": "Security",
+      "description": "Your security is our priority. The reset code will be sent only to your email address."
+    },
+    "quickAndEasy": {
+      "title": "Quick and Easy",
+      "description": "Follow the instructions sent to your email to reset your password in just a few minutes."
+    },
+    "next":{
+      "title": "Next Step",
+      "description": "Enter the code sent to your email to reset your password"
+    }
+
+   },
+    "form": {
+      "backToForgotPassword": "Back to Forgot Password",
+      "code": {
+        "label": "Code",
+        "placeholder": "Enter the code",
+ 
+        "validation": {
+          "required": "Code is required",
+          "invalid": "Invalid code"
+        }
+      },
+      "submit": {
+        "verify": "Verify",
+        "verifying": "Verifying...",
+        "backToLogin": "Back to Login"
+      }
+    }
+  },
+
+  "resetPassword": {
+    "title": "Reset Password",
+    "subtitle": "Enter your new password to reset your account",
+    "error": "Error resetting password:",
+    "error.unableToResetPassword": "Unable to reset password",
+    "error.passwordsDoNotMatch": "Passwords do not match",
+    
+   
+    "form": {
+      "newPassword": "New Password",
+      "backToLogin": "Back to Login",
+      "submit": {
+        "reset": "Reset",
+        "resetting": "Resetting...",
+        "backToLogin": "Back to Login"
+      },
+     
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your new password",
+        "validation": {
+          "required": "Password is required",
+          "minLength": "Password must be at least 6 characters"
+        }
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Confirm your new password",
+        "validation": {
+          "required": "Confirm password is required",
+          "match": "Passwords must match"
+        }
+      }
+    },
+    "banner": {
+      "title": "Reset Password",
+      "description": "Enter your new password to reset your account",
+      "security": {
+        "title": "Security",
+        "description": "Your security is our priority. The reset code will be sent only to your email address."
+      },
+      "requirements": {
+        "title": "Requirements",
+        "description": "Enter your new password to reset your account"
+      }
+    } ,
+    "errors": {
+      "passwordMismatch": "Passwords must match"
+    },
+    "success": {
+      "message": "Password reset successfully! Please login."
+    },
+    "validation": {
+      "newPassword": {
+        "required": "New password is required",
+        "minLength": "New password must be at least 6 characters"
+      },
+      "confirmPassword": {
+        "required": "Confirm password is required",
+        "match": "Passwords must match"
+      }
+    },
+    "submit": {
+      "reset": "Reset",
+      "resetting": "Resetting...",
+      "backToLogin": "Back to Login"
+    }
+
+
+  },
+  "signup": {
+    "title": "Create your account",
+    "subtitle": "Join our community and start learning today",
+    "form": {
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "validation": {
+          "required": "Full name is required"
+        }
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "your@email.com",
+        "validation": {
+          "required": "Email is required",
+          "invalid": "Invalid email address"
+        }
+      },
+      "password": {
+        "label": "Password",
+        "validation": {
+          "required": "Password is required",
+          "minLength": "Password must be at least 6 characters"
+        }
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "validation": {
+          "required": "Please confirm your password",
+          "match": "Passwords must match"
+        }
+      },
+      "submit": {
+        "create": "Create Account",
+        "creating": "Creating account..."
+      }
+    },
+    "haveAccount": {
+      "text": "Already have an account?",
+      "login": "Login here"
+    },
+    "banner": {
+      "title": "Hello! Welcome back.",
+      "description": "Create an Account to Continue your allCourses"
+    },
+    "errors": {
+      "registrationFailed": "Registration failed. Please try again.",
+      "tokenError": "Token not received from server"
+    },
+    "success": {
+      "message": "Account created successfully! Please login."
+    }
+  },
+  "certificate": {
+    "title": "Certificate of Completion",
+    "awardedTo": "THIS CERTIFICATE IS AWARDED TO",
+    "forCompleting": "for successfully completing the course",
+    "issuedOn": "Issued on",
+    "certificateId": "Certificate ID",
+    "errorCertificate": "Error retrieving certificate",
+    "download": {
+      "button": "Download Certificate",
+      "success": "Certificate downloaded successfully!",
+      "error": "Error downloading certificate. Please try again."
+    },
+    "loading": "Loading certificate...",
+    "error": {
+      "title": "Error",
+      "message": "Error loading certificate"
+    },
+    "unknownStudent": "Unknown Student",
+    "unknownCourse": "Unknown Course",
+    "instructorSignature": "Instructor Signature",
+    "certified": "CERTIFIED"
+
+  },
+  "adminLogin": {
+    "title": "Welcome back, Admin",
+    "subtitle": "Log in to manage your dashboard and administrative tasks",
+    "form": {
+      "email": {
+        "label": "Email Address",
+        "placeholder": "your@email.com",
+        "validation": {
+          "required": "Email is required",
+          "invalid": "Invalid email format"
+        }
+      },
+      "password": {
+        "label": "Password",
+        "validation": {
+          "required": "Password is required",
+          "minLength": "Password must be at least 6 characters"
+        }
+      },
+      "submit": {
+        "login": "Log in",
+        "loggingIn": "Logging in..."
+      }
+    },
+    "banner": {
+      "title": "Admin Dashboard",
+      "description": "Securely manage users, content, and system settings from your dashboard!"
+    },
+    "errors": {
+      "incorrectCredentials": "Incorrect email or password",
+      "tokenError": "Token not received from server"
+    }
+  },
+  "adminLayout": {
+    "dashboard": "Dashboard",
+    "ADMIN": "ADMIN",
+    "userManagement": "User Management",
+    "instructors": "Instructors",
+    "students": "Students",
+    "instructorApply": "Instructor Applications",
+    "category": "Categories",
+    "course": "Courses",
+    "subscriptions": "Subscriptions",
+    "review": "Reviews",
+    "question": "Questions",
+    "logout": "Logout",
+    "admin": "Admin",
+    "profile": "Profile"
+  },
+  "instructorManagement": {
+    "title": "Instructor Management",
+    "subtitle": "Manage platform instructors",
+    "addButton": "Add Instructor",
+    "editButton": "Edit",
+    "deleteButton": "Delete",
+    "cancelButton": "Cancel",
+    "saveButton": "Save",
+    "viewButton": "View",
+    "viewModalTitle": "View Instructor",
+    "success": {
+      "create": "Instructor created successfully!",
+      "update": "Instructor updated successfully!",
+      "delete": "Instructor deleted successfully!"
+    },
+    "errorLoading": "An error occurred while loading instructors.",
+    "errors": {
+      "noId": "Instructor ID is not defined.",
+      "emailExists": "An instructor with this email already exists.",
+      "update": "An error occurred while updating the instructor.",
+      "delete": "An error occurred while deleting the instructor.",
+      "create": "An error occurred while creating the instructor.",
+      "notFound": "Instructor not found.",
+      "noPermission": "You do not have permission to delete this instructor."
+    },
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "actions": "Actions"
+    },
+    "addModal": {
+      "title": "Add New Instructor"
+    },
+    "editModal": {
+      "title": "Edit Instructor Details"
+    },
+    "deleteModal": {
+      "title": "Delete Instructor",
+      "confirm": "Are you sure you want to delete instructor {{name}}? This action cannot be undone."
+    },
+    "form": {
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Enter full name",
+        "required": "Name is required"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter email",
+        "required": "Email is required",
+        "invalid": "Invalid email address"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter password",
+        "required": "Password is required",
+        "min": "Password must be at least 6 characters"
+      },
+      "create": "Create",
+      "creating": "Creating..."
+    }
+  },
+  "studentManagement": {
+    "title": "Student Management",
+    "subtitle": "Manage students on the platform",
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "dateOfBirth": "Date of Birth",
+      "phone": "Phone",
+      "certificate": "Certificate",
+      "course": "Course",
+      "subscription": "Subscription",
+      "actions": "Actions",
+      "view": "View",
+      "delete": "Delete"
+    },
+    "modals": {
+      "view": {
+        "title": "Learner Details",
+        "name": "Name",
+        "email": "Email",
+        "dateOfBirth": "Date of Birth",
+        "phone": "Phone",
+        "certificate": "Certificate",
+        "course": "Course",
+        "subscriptionType": "Subscription Type"
+      },
+      "delete": {
+        "title": "Confirm deletion",
+        "message": "Are you sure you want to delete the learner {name}? This action is irreversible.",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+      }
+    },
+    "loading": "Loading learners...",
+    "error": "Error loading learners",
+    "noLearners": "No learners found",
+    "notSpecified": "Not specified",
+    "alerts": {
+      "success": {
+        "deleted": "Learner successfully deleted!"
+      },
+      "error": {
+        "deleting": "Error deleting learner",
+        "notFound": "Learner no longer exists",
+        "noPermission": "You do not have permission to delete this learner"
+      }
+    }
+  },
+  "instructorApplications": {
+    "title": "Instructor Applications",
+    "subtitle": "Review and manage applications from potential instructors.",
+    "loading": "Loading...",
+    "errorLoading": "Unable to load applications.",
+    "noApplications": "No instructor applications found.",
+    "errorSendingApplication": "Error sending application",
+    "errorResponse": "Error response:",
+    "statuss": "Status",
+    "errorMessage": "Error message:",
+    "errorRequest": "Error request:",
+    "table": {
+      "instructor": "Instructor",
+      "speciality": "Speciality",
+      "country": "Country",
+      "birthDate": "Birth Date",
+      "cv": "CV",
+      "topic": "Topic",
+      "status": "Status",
+      "actions": "Actions",
+      "view": "View",
+      "approve": "Approve",
+      "reject": "Reject"
+     
+    },
+    "status": {
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "pending": "Pending",
+      "scheduled": "Scheduled",
+      "interview": "Interview"
+    },
+    "alerts": {
+      "scheduled": "Maintenance scheduled successfully!",
+      "errorScheduling": "An error has occurred.",
+      "rejected": "Request successfully denied!",
+      "errorRejecting": "Error while refusing the request."
+    },
+    "modals": {
+      "details": {
+        "title": "Application Details",
+        "name": "Name",
+        "email": "Email",
+        "speciality": "Speciality",
+        "country": "Country",
+        "birthDate": "Birth Date",
+        "cv": "CV",
+        "topic": "Topic",
+        "status": "Status"
+      },
+      "schedule": {
+        "title": "Schedule Interview",
+        "meetLink": "Google Meet Link",
+        "generate": "Generate",
+        "date": "Interview Date",
+        "cancel": "Cancel",
+        "schedule": "Schedule"
+      },
+      "submit": {
+        "success": "Your application has been submitted successfully",
+        "redirecting": "Redirecting to home page...",
+        "error": {
+          "title": "Error",
+          "message": "An error occurred while submitting the application"
+        }
+      }
+    
+    },
+      "pagetitre": "Thank you for your interest in becoming a mentor. We'll review your application and get back to you within 2-3 business days"
+  },
+  "categoryManagement": {
+    "title": "Category Management",
+    "subtitle": "Manage the platform's Categories",
+    "addCategory": "Add Category",
+    "errorLoading": "Error loading categories.",
+    "alerts": {
+      "updated": "Category updated successfully!",
+      "deleted": "Category successfully deleted!"
+    },
+    "errors": {
+      "noId": "Category ID not defined",
+      "duplicateTitle": "A category with this title already exists",
+      "update": "Error updating category",
+      "notFound": "Category no longer exists",
+      "noPermission": "You do not have permission to delete this category",
+      "delete": "Error deleting category"
+    },
+    "validation": {
+      "titleRequired": "Title is required",
+      "imageRequired": "Image is required"
+    },
+    "table": {
+      "title": "Title",
+      "picture": "Picture",
+      "actions": "Actions",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "form": {
+      "title": "Title",
+      "titlePlaceholder": "Enter the category title",
+      "picture": "Picture",
+      "exit": "Exit",
+      "save": "Save",
+      "creating": "Creating...",
+      "update": "Update"
+    },
+    "modals": {
+      "add": {
+        "title": "Add Category"
+      },
+      "edit": {
+        "title": "Edit Category"
+      },
+      "delete": {
+        "title": "Delete Category",
+        "message": "Are you sure you want to delete the category {{name}}? This action is irreversible.",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+      }
+    }
+  },
+  "courseStatus": {
+    "title": "Course Management",
+    "subtitle": "View and manage courses submitted by instructors.",
+    "loading": "Loading...",
+    "errorLoading": "Unable to load courses.",
+    "noCourses": "No courses found.",
+    "table": {
+      "name": "Name",
+      "image": "Image",
+      "category": "Category",
+      "description": "Description",
+      "level": "Level",
+      "language": "Language",
+      "status": "Status",
+      "actions": "Actions",
+      "view": "View",
+      "approve": "Approve",
+      "reject": "Reject"
+    },
+    "status": {
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "pending": "Pending"
+    },
+    "alerts": {
+      "approved": "Course approved successfully!",
+      "rejected": "Course rejected successfully!",
+      "errorApprove": "An error occurred while approving the course.",
+      "errorReject": "An error occurred while rejecting the course.",
+      "sessionExpired": "Session expired. Please log in again."
+    },
+    "modals": {
+      "details": {
+        "title": "Course Details",
+        "category": "Category",
+        "description": "Description",
+        "level": "Level",
+        "language": "Language",
+        "modules": "Modules",
+        "noModules": "No modules available",
+        "close": "Close",
+        "approve": "Approve",
+        "reject": "Reject",
+        "videos": "Videos",
+        "duration": "Duration"
+      },
+      "video": {
+        "error": "Unable to load video",
+        "noVideo": "No video selected",
+        "duration": "Duration",
+        "file": "File",
+        "browser": "Your browser does not support video playback.",
+        "title": "Video",
+        "close": "Close"
+      }
+    }
+  },
+  "subscriptions": {
+    "title": "Subscription Management",
+    "subtitle": "View and manage subscriptions and payments",
+    "tabs": {
+      "plans": "Subscription plans",
+      "abonnements": " subscriptions",
+      "paiements": "Payment history"
+      
+    },
+    "table": {
+      "type": "Type",
+      "price": "Price",
+      "duration": "Duration",
+      "offers": "Offers",
+      "actions": "Actions",
+      "edit": "Edit",
+      "delete": "Delete",
+      "view": "View",
+      "monthly": "Month",
+      "yearly": "Year",
+      "student": "Student",
+      "plan": "Plan",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "students": "Students",
+      "amount": "Amount",
+      "method": "Method",
+      "date": "Date",
+      "viewPayment": "View ",
+      "interval": "Duration"
+     
+    },
+    "modals": {
+      "add": "Add Plan",
+      "edit": "Edit Plan",
+      "planType": "Plan Type *",
+      "price": "Price (€) *",
+      "duration": "Duration *",
+      "offers": "Offers",
+      "exit": "Exit",
+      "inProgress": "In progress...",
+      "toUpdate": "To update",
+      "delete": "Are you sure you want to delete this plan?",
+      "interval": "Interval"
+    },
+    "placeholders": {
+      "planType": "Ex: Premium Plan",
+      "price": "Ex: 19.99",
+      "offers": "Ex: 10% discount"
+    },
+    "alerts": {
+      "deleteConfirm": "Are you sure you want to delete this plan?",
+      "errorLoading": "Error loading data",
+      "errorSaving": "Error saving plan",
+      "errorDeleting": "Error deleting plan"
+    },
+    "unknown": {
+      "plan": "Plan unknown",
+      "user": "Unknown user",
+      "email": "Unknown email"
+    }
+  },
+  "userFeedback": {
+    "title": "User Questions",
+    "subtitle": "Manage and respond to user questions.",
+    "questionsList": "Questions List",
+    "noQuestions": "No questions found.",
+    "unknownUser": "Unknown User",
+    "unknownCourse": "Unknown Course",
+    "responses": "{count} response(s)",
+    "selectQuestion": "Select a question to view details",
+    "details": {
+      "course": "Course",
+      "question": "Question:",
+      "response": "Response:",
+      "noResponse": "No response yet.",
+      "answeredBy": "Answered by"
+    },
+    "loading": "Loading questions...",
+    "error": "Unable to load questions."
+  },
+  "courseReview": {
+    "title": "Course Reviews",
+    "subtitle": "View and manage course reviews from learners.",
+    "course": "Course Name :",
+    "review": "Review ",
+    "rating": "Rating :",
+    "noReviews": "No reviews found.",
+    "unknownUser": "Unknown User",
+    "unknownCourse": "Unknown Course",
+    "loading": "Loading reviews...",
+    "error": "Unable to load reviews."
+  },
+  "adminDashboard": {
+    "title": "Platform Statistics",
+    "subtitle": "Platform statistics overview",
+    "cards": {
+      "totalUsers": "Total Users",
+      "activeSubscriptions": "Active Subscriptions",
+      "totalRevenue": "Total Revenue",
+      "totalCourses": "Total Courses",
+      "categories": "Categories",
+      "averageRating": "Average Course Rating",
+      "totalEnrollments": "Total Enrollments"
+    },
+    "changes": {
+    "usersMonth": "+{{percent}}% this month",
+"activeSubscriptions": "{{percent}}% of users",
+"revenueMonth": "+{{percent}}% this month",
+      "coursesMonth": "{{count}} new this month",
+      "enrollments": "{{percent}}% of users",
+      "categories": "Subject diversity",
+      "averageRating": "out of 5.0",
+      "totalEnrollments": "{{percent}}% of users"
+
+
+
+    },
+    "loading": "Loading statistics...",
+    "error": "Unable to load statistics"
+  },
+  "adminProfile": {
+    "title": "Settings",
+    "subtitle": "Manage your account and preferences",
+    "sidebar": {
+      "menu": "Settings Menu",
+      "profileInfo": "Profile Information",
+      "notifications": "Notification Preferences"
+    },
+    "profile": {
+      "title": "Profile Information",
+      "subtitle": "Update your personal information",
+      "fullName": "Full Name",
+      "image": "Image",
+      "email": "Email Address",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "changeImage": "Change",
+      "removeImage": "Remove",
+      "imageRecommendation": "Recommended size: 400px x 400px. Max size: 1MB.",
+      "placeholderName": "Your name",
+      "placeholderEmail": "Your email",
+      "placeholderPassword": "Leave blank to keep current",
+      "placeholderConfirmPassword": "Confirm new password",
+      "save": "Save changes",
+      "saving": "Saving...",
+      "errorLogin": "Please log in to modify your profile"
+    },
+    
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email",
+      "passwordMin": "Password must be at least 6 characters",
+      "passwordsMatch": "Passwords must match"
+    },
+    "success": "Profile updated successfully",
+    "error": "An error occurred while updating the profile"
+  },
+  "instructorLayout": {
+    "dashboard": "Dashboard",
+    "myCourses": "My Courses",
+    "quizzes": "Quizzes",
+    "question": "Question",
+    "quizResultsUpdated": "Quiz results updated:",
+    "review": "Review",
+    "instructor": "INSTRUCTOR",
+    "errorLoadingProgress": "Error loading progress:",
+    "logout": "Logout",
+    "profile": "Profile",
+    "loggingOut": "Logging you out...",
+    "thankYou": "Thank you for using our platform. You will be redirected shortly."
+  },
+  "instructorDashboard": {
+    "title": "Instructor Dashboard",
+    "welcome": "Welcome, {name}",
+    "metrics": {
+      "coursesCreated": "Number of courses created",
+      "totalStudents": "Total enrolled students",
+      "averageRating": "Average course rating"
+    },
+    "loading": "Loading...",
+    "error": "Error loading dashboard data.",
+    "loginRequired": "Please log in as an instructor to view your dashboard.",
+    "ratingScale": "/5"
+  },
+  "instructorCourses": {
+    "title": "My Courses",
+    "subtitle": "Manage and track all your courses",
+    "createNew": "Create New Course",
+    "table": {
+      "headers": {
+        "courseName": "Course Name",
+        "picture": "Picture",
+        "description": "Description",
+        "category": "Category",
+        "level": "Level",
+        "language": "Language",
+        "modules": "Modules",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "loading": "Loading...",
+      "noCourses": "No courses found",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "status": {
+      "accepted": "accepted",
+      "rejected": "rejected",
+      "pending": "pending"
+    },
+    "deleteModal": {
+      "title": "Delete Course",
+      "confirmation": "Are you sure you want to delete \"{name}\"? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "errors": {
+      "authRequired": "You must be logged in to access this page",
+      "loading": "Error loading courses",
+      "delete": {
+        "invalidId": "Cannot delete this course: Missing or invalid ID",
+        "sessionExpired": "Session expired, please log in again",
+        "notFound": "Course no longer exists",
+        "noPermission": "You do not have permission to delete this course",
+        "general": "An error occurred while deleting the course"
+      }
+    },
+    "success": {
+      "deleted": "Course deleted successfully!"
+    }
+  },
+  "courseForm": {
+    "title": {
+      "create": "Create New Course",
+      "edit": "Edit Course: {name}"
+    },
+    "fields": {
+      "courseTitle": "Course Title",
+      "courseImage": "Course Image",
+      "category": "Category",
+      "level": "Level",
+      "language": "Language",
+      "description": "Description",
+      "modules": "Modules",
+      "videoFile": "Video File"
+    },
+    "placeholders": {
+      "courseTitle": "Enter course title",
+      "description": "Enter course description",
+      "moduleTitle": "Module title",
+      "videoTitle": "Video title",
+      "duration": "Duration (e.g., 10:30)"
+    },
+    "validation": {
+      "required": "This field is required",
+      "minLength": "Text must be at least {min} characters long",
+      "maxLength": "Text must not exceed {max} characters",
+      "invalidDuration": "Invalid duration format (HH:MM)",
+      "invalidFormat": "Invalid format"
+    },
+    "buttons": {
+      "create": "Create Course",
+      "update": "Update Course",
+      "cancel": "Cancel",
+      "addModule": "+ Add Module",
+      "addVideo": "+ Add Video",
+      "removeModule": "Remove Module",
+      "removeVideo": "Remove Video"
+    },
+    "messages": {
+      "loading": "Loading...",
+      "error": "Error",
+      "success": {
+        "create": "Course created successfully!",
+        "update": "Course updated successfully!"
+      },
+      "errors": {
+        "authRequired": "You must be logged in to access this page",
+        "sessionExpired": "Session expired, please log in again",
+        "invalidFile": "Invalid file format",
+        "uploadFailed": "File upload failed",
+        "general": "An error occurred while saving the course"
+      }
+    },
+    "formats": {
+      "image": "Accepted formats: JPG, JPEG, PNG",
+      "video": "Accepted formats: MP4, AVI, MKV"
+    },
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "languages": {
+      "en": "English",
+      "ar": "Arabic"
+    }
+  },
+  "courseQuizzes": {
+    "title": "Course Quizzes",
+    "subtitle": "Create and manage quizzes for your courses",
+    "createNew": "Create New Quiz",
+    "loading": "Loading...",
+    "errors": {
+      "loading": "Error loading data",
+      "authRequired": "You must be logged in to access this page",
+      "noCourses": "You haven't created any courses yet. Create a course first to add quizzes.",
+      "noQuizzes": "You haven't created any quizzes for your courses yet."
+    },
+    "table": {
+      "headers": {
+        "question": "Question",
+        "options": "Options",
+        "correctAnswer": "Correct Answer"
+      },
+      "noOptions": "No options"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "deleteModal": {
+      "title": "Confirm Deletion",
+      "message": "Are you sure you want to delete this quiz?",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "alerts": {
+      "success": {
+        "deleted": "Quiz deleted successfully!"
+      },
+      "error": {
+        "notFound": "This quiz no longer exists.",
+        "noPermission": "You don't have permission to delete this quiz.",
+        "general": "Error deleting quiz"
+      }
+    }
+  },
+  "createEditQuiz": {
+    "title": {
+      "create": "Create New Quiz",
+      "edit": "Edit Quiz"
+    },
+    "subtitle": {
+      "create": "Create assessments to test your students' knowledge",
+      "edit": "Update the details and questions for this quiz"
+    },
+    "note": "Note: The system requires exactly 20 questions for each quiz.",
+    "quizDetails": {
+      "title": "Quiz Details",
+      "course": {
+        "label": "Course",
+        "required": "*",
+        "placeholder": "Select a course"
+      },
+      "duration": {
+        "label": "Duration (minutes)",
+        "required": "*",
+        "placeholder": "Enter duration",
+        "recommendation": "Recommended time is 20 minutes for 20 questions."
+      }
+    },
+    "questions": {
+      "title": "Questions ({current}/20)",
+      "status": {
+        "ready": "✓ All questions ready",
+        "needed": "Needs {count} more questions"
+      },
+      "question": {
+        "label": "Question",
+        "required": "*",
+        "placeholder": "Enter your question here"
+      },
+      "options": {
+        "label": "Answer Options",
+        "required": "*",
+        "placeholder": "Option {number}"
+      },
+      "actions": {
+        "remove": "Remove",
+        "add": "Add Question ({current}/20)"
+      }
+    },
+    "buttons": {
+      "create": "Create Quiz",
+      "updating": "Updating...",
+      "update": "Update Quiz",
+      "creating": "Creating..."
+    },
+    "errors": {
+      "general": "An error occurred",
+      "loading": "Error loading data",
+      "validation": {
+        "courseRequired": "Course selection is required",
+        "durationRequired": "Quiz duration is required",
+        "durationMin": "Quiz must be at least 5 minutes",
+        "durationMax": "Quiz cannot exceed 180 minutes",
+        "questionRequired": "Question text is required",
+        "optionsRequired": "Option is required",
+        "minOptions": "At least two answer options are required",
+        "correctAnswerRequired": "Correct answer must be selected",
+        "exactQuestions": "Exactly 20 questions are required"
+      },
+      "api": {
+        "create": "Failed to create quiz. Please try again.",
+        "update": "Failed to update quiz. Please try again.",
+        "duplicate": "A quiz for this course already exists.",
+        "invalidData": "Invalid quiz data.",
+        "server": "Server error. Please try again later.",
+        "notFound": "Quiz not found.",
+        "noPermission": "You don't have permission to perform this action."
+      }
+    },
+    "success": {
+      "create": "Quiz created successfully!",
+      "update": "Quiz updated successfully!"
+    },
+    "loading": {
+      "initial": "Loading quiz data...",
+      "submitting": "Processing..."
+    }
+  },
+  "discussions": {
+    "title": "Student Questions",
+    "subtitle": "Manage and respond to your students' questions",
+    "alerts": {
+      "notLoggedIn": {
+        "title": "Warning",
+        "message": "You must be logged in as an instructor to see questions."
+      },
+      "noCourses": {
+        "title": "Information",
+        "message": "You don't have any courses assigned yet. No questions to display."
+      }
+    },
+    "list": {
+      "title": "Questions List",
+      "noQuestions": "No questions found for your courses.",
+      "user": "Unknown User",
+      "course": "Unknown Course",
+      "status": {
+        "answered": "Answered",
+        "pending": "Pending"
+      }
+    },
+    "details": {
+      "selectQuestion": "Select a question to view details",
+      "course": "Course:",
+      "question": "Question:",
+      "response": "Response:",
+      "form": {
+        "placeholder": "Write your response here...",
+        "submit": "Submit Response",
+        "submitting": "Submitting..."
+      },
+      "success": "Response submitted successfully!"
+    },
+    "errors": {
+      "loading": "Error loading data",
+      "noResponse": "Please enter a response before submitting",
+      "auth": {
+        "missingToken": "Authentication token missing. Please log in again.",
+        "expired": "Session expired. Please log in again.",
+        "unauthorized": "You are not authorized to answer this question."
+      },
+      "submit": "Failed to submit response. Please try again."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your account and preferences",
+    "sidebar": {
+      "menu": "Settings Menu",
+      "profileInfo": "Profile Information",
+      "notifications": "Notification Preferences"
+    },
+    "profile": {
+      "title": "Profile Information",
+      "subtitle": "Update your personal information",
+      "image": {
+        "change": "Change",
+        "remove": "Remove",
+        "recommendation": "Recommended: Square image, JPG or PNG format. Max size: 1MB."
+      },
+      "form": {
+        "fullName": "Full Name",
+        "email": "Email Address",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm Password",
+        "birthDate": "Birth Date",
+        "phone": "Phone",
+        "speciality": "Speciality",
+        "placeholders": {
+          "name": "Your name",
+          "email": "Your email",
+          "password": "Leave blank to keep current",
+          "confirmPassword": "Confirm new password"
+        }
+      },
+      "buttons": {
+        "save": "Save Changes",
+        "saving": "Saving..."
+      },
+      "errors": {
+        "loginRequired": "Please log in to modify your profile",
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Invalid email",
+        "passwordMin": "Password must be at least 6 characters",
+        "passwordsMatch": "Passwords must match",
+        "birthDateRequired": "Birth date is required",
+        "specialityRequired": "Speciality is required"
+      },
+      "success": "Profile updated successfully"
+    },
+    "notifications": {
+      "title": "Notification Preferences",
+      "subtitle": "Choose which notifications you would like to receive",
+      "options": {
+        "courseEnrollments": "Course enrollments",
+        "courseFeedback": "Course feedback",
+        "newQuestions": "New questions",
+        "promotionalEmails": "Promotional emails",
+        "weeklyDigest": "Weekly digest",
+        "courseCompletions": "Course completions"
+      }
+    }
+  },
+  "instructorLogin": {
+    "title": "Welcome Professor",
+    "subtitle": "Log in to your personal space",
+    "form": {
+      "email": {
+        "label": "Email Address",
+        "placeholder": "your@email.com",
+        "validation": {
+          "required": "Email is required",
+          "invalid": "Invalid email"
+        }
+      },
+      "password": {
+        "label": "Password",
+        "validation": {
+          "required": "Password is required",
+          "minLength": "Password must be at least 6 characters"
+        }
+      },
+      "submit": {
+        "login": "Log In",
+        "loggingIn": "Logging in..."
+      }
+    },
+    "banner": {
+      "title": "Welcome to your Teacher Area",
+      "description": "Manage your courses, students, and track your educational activities."
+    },
+    "errors": {
+      "incorrectCredentials": "Incorrect email or password",
+      "invalidResponse": "Invalid server response",
+      "missingToken": "Missing token in server response",
+      "missingId": "Missing professor ID in server response",
+      "general": "An error occurred during login"
+    }
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "Our team is here to help you with any questions or support.",
+    "subscribe": "Subscribe Now",
+    "contactInfo": "Contact Information",
+    "email": "Email",
+    "sendEmail": "Send Email",
+    "emailDesc": "Send us a message anytime",
+    "whatsapp": "WhatsApp",
+    "whatsappDesc": "Chat with us on WhatsApp",
+    "phone": "Phone",
+    "phoneDesc": "Speak with our support team",
+    "location": "Our Location",
+    "address": "Dubaï - Émirats arabes unis",
+    "businessHours": "Business Hours",
+    "businessHoursValue": "24/7",
+    "aboutTitle": "About Our E-Learning Platform",
+    "mission": "Our Mission",
+    "missionDesc": "Making education accessible to everyone through quality online courses.",
+    "vision": "Our Vision",
+    "visionDesc": "Becoming the leading online learning platform in Morocco and Africa.",
+    "values": "Our Values",
+    "valuesDesc": "Excellence, innovation, and dedication to our learners' success.",
+    "followUs": "Follow Us",
+    "responseTime": "Response Time",
+    "responseTimeDesc": "We typically respond within 24 hours on business days",
+    "supportHours": "Support Hours",
+    "supportHoursDesc": "Live support available 24/7",
+    "learnMore": "Learn More About Us",
+    "connectWithUs": "Connect With Us",
+    "aboutPlatform": "About Our E-Learning Platform",
+    "aboutPlatformDesc": "We are dedicated to providing high-quality online courses that make education accessible to everyone.",
+    "startChat": "Start Chat",
+    "callNow": "Call Now",
+    "viewLargerMap": "View Larger Map"
+  },
+  "notifications": {
+    "newEnrollmentTitle": "New Enrollment",
+    "newEnrollment": "{{studentName}} has enrolled in {{courseName}}",
+    "newCourseTitle": "New Course Available",
+    "newCourse": "A new course is available: {{courseName}}",
+    "courseApprovedTitle": "Course Approved",
+    "courseApproved": "Your course {{courseName}} has been approved",
+    "noNotifications": "No notifications"
+  }
+}

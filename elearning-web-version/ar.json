@@ -1,0 +1,210 @@
+{
+  "common": {
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "add": "إضافة",
+    "search": "بحث",
+    "filter": "تصفية",
+    "all": "الكل",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "status": "الحالة",
+    "date": "التاريخ",
+    "actions": "الإجراءات",
+    "confirm": "تأكيد",
+    "close": "إغلاق"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "signup": "إنشاء حساب",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "resetPassword": "إعادة تعيين كلمة المرور"
+  },
+  "admin": {
+    "dashboard": "لوحة التحكم",
+    "userManagement": "إدارة المستخدمين",
+    "instructors": "المدربون",
+    "students": "الطلاب",
+    "instructorApplications": "طلبات المدربين",
+    "categories": "الفئات",
+    "subscriptions": "الاشتراكات",
+    "courseReview": "مراجعات الدورات",
+    "feedback": "تعليقات المستخدمين",
+    "statistics": "الإحصائيات",
+    "admin": "المدير"
+  },
+  "subscription": {
+    "management": "إدارة الاشتراكات",
+    "createEditManage": "إنشاء وتعديل وإدارة خطط الاشتراك",
+    "plans": "خطط الاشتراك",
+    "subscribers": "المشتركون",
+    "planName": "اسم الخطة",
+    "duration": "المدة",
+    "monthly": "شهري",
+    "yearly": "سنوي",
+    "originalPrice": "السعر الأصلي ($)",
+    "discount": "الخصم (%)",
+    "finalPrice": "السعر النهائي ($)",
+    "activePlan": "الخطة نشطة",
+    "saveChanges": "حفظ التغييرات",
+    "editPlan": "تعديل الخطة",
+    "addPlan": "إضافة خطة",
+    "save": "حفظ",
+    "mo": "شهر",
+    "yr": "سنة",
+    "features": "المميزات",
+    "addFeature": "إضافة ميزة",
+    "removeFeature": "إزالة ميزة"
+  },
+  "instructor": {
+    "management": "إدارة المدربين",
+    "manageInstructors": "إدارة مدربي المنصة",
+    "addInstructor": "إضافة مدرب",
+    "instructor": "المدرب",
+    "joinDate": "تاريخ الانضمام",
+    "lastActive": "آخر نشاط",
+    "coursesCreated": "الدورات المنشأة",
+    "fullName": "الاسم الكامل",
+    "password": "كلمة المرور"
+  },
+  "student": {
+    "management": "إدارة الطلاب",
+    "manageStudents": "إدارة طلاب المنصة",
+    "searchByNameOrEmail": "البحث بالاسم أو البريد الإلكتروني",
+    "subscriptionStatus": "حالة الاشتراك",
+    "coursesEnrolled": "الدورات المسجلة",
+    "subscriptionType": "نوع الاشتراك",
+    "basic": "أساسي",
+    "premium": "متميز",
+    "expired": "منتهي الصلاحية"
+  },
+  "features": {
+    "unlimitedAccess": "وصول غير محدود",
+    "learnAnytimeAnywhere": "تعلم في أي وقت وأي مكان",
+    "certificationAfterCompletion": "شهادة بعد الإكمال",
+    "accessViaWebMobile": "الوصول عبر الويب والجوال",
+    "accessTheQuiz": "الوصول إلى الاختبارات"
+  },
+  "plans": {
+    "basicPlan": "الخطة الأساسية",
+    "premiumPlan": "الخطة المتميزة",
+    "annualPlan": "الخطة السنوية"
+  },
+
+    "home": {
+      "hero": {
+        "title": "تعلم مع أفضل المدربين",
+        "subtitle": "دورات تدريبية عالية الجودة في مختلف المجالات",
+        "cta": "ابدأ التعلم الآن"
+      },
+      "features": {
+        "title": "مميزات منصتنا",
+        "feature1": "دورات متنوعة",
+        "feature2": "مدربون محترفون",
+        "feature3": "تعلم مرن",
+        "feature4": "شهادات معتمدة"
+      },
+      "popularCourses": {
+        "title": "الدورات الأكثر شعبية",
+        "viewAll": "عرض جميع الدورات"
+      },
+      "testimonials": {
+        "title": "آراء المتعلمين",
+        "subtitle": "ماذا يقول طلابنا عنا"
+      }
+    },
+    "course": {
+      "details": {
+        "title": "تفاصيل الدورة",
+        "instructor": "المدرب",
+        "duration": "المدة",
+        "level": "المستوى",
+        "students": "عدد الطلاب",
+        "rating": "التقييم",
+        "price": "السعر",
+        "enroll": "سجل الآن",
+        "preview": "معاينة مجانية"
+      },
+      "curriculum": {
+        "title": "منهج الدورة",
+        "sections": "الأقسام",
+        "lessons": "الدروس",
+        "duration": "المدة",
+        "status": "الحالة"
+      },
+      "reviews": {
+        "title": "التقييمات والمراجعات",
+        "writeReview": "اكتب تقييماً",
+        "rating": "التقييم",
+        "comment": "التعليق"
+      }
+    },
+    "certificate": {
+      "title": "شهادة إتمام الدورة",
+      "congratulations": "تهانينا!",
+      "completed": "لقد أكملت الدورة بنجاح",
+      "download": "تحميل الشهادة",
+      "share": "مشاركة الشهادة",
+      "valid": "شهادة معتمدة"
+    },
+    "checkout": {
+      "title": "إتمام الشراء",
+      "orderSummary": "ملخص الطلب",
+      "paymentMethod": "طريقة الدفع",
+      "billingInfo": "معلومات الفواتير",
+      "total": "المجموع",
+      "placeOrder": "تأكيد الطلب"
+    },
+    "profile": {
+      "title": "الملف الشخصي",
+      "personalInfo": "المعلومات الشخصية",
+      "changePassword": "تغيير كلمة المرور",
+      "myCourses": "دوراتي",
+      "certificates": "شهاداتي",
+      "settings": "الإعدادات"
+    },
+    "enroll": {
+      "title": "تسجيل في الدورة",
+      "courseInfo": "معلومات الدورة",
+      "paymentInfo": "معلومات الدفع",
+      "confirm": "تأكيد التسجيل"
+    },
+    "subscribe": {
+      "title": "اشترك في النشرة البريدية",
+      "description": "احصل على آخر الأخبار والعروض",
+      "email": "البريد الإلكتروني",
+      "submit": "اشتراك"
+    },
+    "quiz": {
+      "title": "الاختبار",
+      "question": "السؤال",
+      "timeLeft": "الوقت المتبقي",
+      "submit": "تسليم",
+      "results": "النتائج",
+      "score": "الدرجة",
+      "pass": "ناجح",
+      "fail": "راسب"
+    },
+    "payment": {
+      "title": "الدفع",
+      "methods": {
+        "creditCard": "بطاقة ائتمان",
+        "paypal": "باي بال",
+        "bankTransfer": "تحويل بنكي"
+      },
+      "success": "تم الدفع بنجاح",
+      "failed": "فشلت عملية الدفع"
+    },
+    "myCourses": {
+      "title": "دوراتي",
+      "inProgress": "قيد التقدم",
+      "completed": "مكتملة",
+      "notStarted": "لم تبدأ بعد",
+      "continue": "متابعة التعلم"
+    }
+  }

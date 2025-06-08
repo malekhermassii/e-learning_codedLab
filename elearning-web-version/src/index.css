@@ -1,0 +1,13 @@
+@import "tailwindcss";
+.StripeElement {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
+  
+  @layer components {
+    .StripeElement {
+      @apply block visible opacity-100;
+    }
+  }
