@@ -5,8 +5,8 @@ import pandas as pd
 class MongoDBService:
     def __init__(self):
         #connexion à la base de données
-        self.client = MongoClient("mongodb://localhost:27017/")
-        self.db = self.client["RihabTest"]
+        self.client = MongoClient("mongodb+srv://maleekhermassii:mcsxTp9Svo5zrtUU@cluster0.ie2ke8k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+        self.db = self.client["lms"]
 # mongodb+srv://maleekhermassii:mcsxTp9Svo5zrtUU@cluster0.ie2ke8k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
     def fetch_courses(self):
         #récupérer les cours depuis la base de données
