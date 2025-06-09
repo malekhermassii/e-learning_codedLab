@@ -23,7 +23,7 @@ const socketIo = require("socket.io"); //Gérer la communication en temps réel
 const server = http.createServer(app); // Créer un serveur HTTP
 const io = socketIo(server, {
   cors: {
-    origin: ["http://localhost:4000", "https://backendlms-5992.onrender.com", "http://localhost:3000", "https://e-learning-coded-qjyanx2fn-malekhermassiis-projects.vercel.app"],
+    origin: ["http://localhost:4000", "https://backendlms-5992.onrender.com", "http://localhost:3000", "https://e-learning-coded-lab.vercel.app/"],
     methods: ["GET", "POST"],
     credentials: true
   },
