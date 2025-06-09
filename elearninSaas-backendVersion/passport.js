@@ -9,7 +9,7 @@ passport.use(
 		{
 			clientID: process.env.CLIENT_ID,
 			clientSecret: process.env.CLIENT_SECRET,
-			callbackURL: "https://backendlms-5992.onrender.comauth/google/callback",
+			callbackURL: "https://backendlms-5992.onrender.com/auth/google/callback",
 			scope: ["profile", "email"],
 		},
 		async function (accessToken, refreshToken, profile, callback) {
