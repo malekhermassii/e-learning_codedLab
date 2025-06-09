@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from data_service import DataService
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -68,5 +69,6 @@ def refresh_model():
         return jsonify({"error": str(e)}), 500
 
 # route pour exécuter l'application
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
