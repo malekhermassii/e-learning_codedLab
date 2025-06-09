@@ -23,7 +23,7 @@ const socketIo = require("socket.io"); //Gérer la communication en temps réel
 const server = http.createServer(app); // Créer un serveur HTTP
 const io = socketIo(server, {
   cors: {
-    origin: ["http://localhost:4000", "https://backendlms-5992.onrender.com", "http://localhost:3000", "https://e-learning-coded-lab.vercel.app/"],
+    origin: ["http://localhost:4000", "https://backendlms-5992.onrender.com", "http://localhost:3000", "https://e-learning-coded-lab.vercel.app"],
     methods: ["GET", "POST"],
     credentials: true
   },
@@ -62,12 +62,28 @@ app.use((req, res, next) => {
 // Webhook route uses raw body parser
 app.use(express.json());
 // CORS configuration
+const allowedOrigins = [
+  "http://localhost:3000",
+  "http://localhost:4000",
+  "https://e-learning-coded-lab.vercel.app",
+  "https://backendlms-5992.onrender.com"
+];
+
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: function(origin, callback) {
+    // Allow requests with no origin (like Postman or curl)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error(`CORS policy: Origin ${origin} not allowed`), false);
+    }
+  },
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With", "Accept"]
 }));
+
 
 app.use(
   session({
