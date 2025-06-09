@@ -41,7 +41,7 @@ const SignupPage = () => {
     onSubmit: async (values, { setSubmitting, setErrors }) => {
       try {
         const response = await axios.post(
-          "http://192.168.70.148:4000/register",
+          "https://backendlms-5992.onrender.com/register",
           {
             name: values.name,
             email: values.email,

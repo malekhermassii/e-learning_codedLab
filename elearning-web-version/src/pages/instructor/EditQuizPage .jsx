@@ -8,7 +8,7 @@ import { updateQuiz } from "../../redux/slices/quizSlice";
 import { fetchCourses, getquizById } from "../../api";
 import { toast } from "react-toastify";
 
-const API_URL = "http://192.168.70.148:4000";
+const API_URL = "https://backendlms-5992.onrender.com";
 
 const EditQuizPage = () => {
   const navigate = useNavigate();

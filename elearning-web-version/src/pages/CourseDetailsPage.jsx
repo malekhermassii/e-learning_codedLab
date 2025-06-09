@@ -102,7 +102,7 @@ const CourseDetailsPage = () => {
       if (courseId) {
         try {
           setLoadingQuestions(true);
-          const response = await fetch(`http://192.168.70.148:4000/question`);
+          const response = await fetch(`https://backendlms-5992.onrender.com/question`);
           const data = await response.json();
           dispatch(setQuestions(data));
         } catch (err) {
@@ -119,7 +119,7 @@ const CourseDetailsPage = () => {
   //notification pour new eroll
   useEffect(() => {
     // Initialisation de la connexion Socket.IO
-    const socket = io("http://192.168.70.148:4000");
+    const socket = io("https://backendlms-5992.onrender.com");
 
     // Écoute des notifications d'inscription
     socket.on("newEnrollment", (data) => {
@@ -156,7 +156,7 @@ const CourseDetailsPage = () => {
       const token = localStorage.getItem("token") || sessionStorage.getItem("token");
       if (!token) return;
       try {
-        const res = await axios.get(`http://192.168.70.148:4000/enroll/check/${courseId}`,
+        const res = await axios.get(`https://backendlms-5992.onrender.com/enroll/check/${courseId}`,
           {
             headers: { Authorization: `Bearer ${token}` }
           });
@@ -232,7 +232,7 @@ const CourseDetailsPage = () => {
         }
 
         const response = await axios.post(
-          `http://192.168.70.148:4000/enroll/${courseId}`,
+          `https://backendlms-5992.onrender.com/enroll/${courseId}`,
           {},
           {
             headers: {
@@ -280,7 +280,7 @@ const CourseDetailsPage = () => {
       try {
         const token = localStorage.getItem("token") || localStorage.getItem("token") || sessionStorage.getItem("token");
         if (token) {
-          const checkRes = await axios.get(`http://192.168.70.148:4000/enroll/check/${courseId}`,
+          const checkRes = await axios.get(`https://backendlms-5992.onrender.com/enroll/check/${courseId}`,
             {
               headers: { Authorization: `Bearer ${token}` }
             });
@@ -329,7 +329,7 @@ const CourseDetailsPage = () => {
       }
 
       const response = await axios.post(
-        `http://192.168.70.148:4000/question/${courseId}`,
+        `https://backendlms-5992.onrender.com/question/${courseId}`,
         { question: question },
         {
           headers: {
@@ -395,7 +395,7 @@ const CourseDetailsPage = () => {
         throw new Error(t('courseDetails.authenticationTokenNotFound'));
       }
       const response = await axios.post(
-        `http://192.168.70.148:4000/feedback/${courseId}`,
+        `https://backendlms-5992.onrender.com/feedback/${courseId}`,
         {
           message: reviewContent.trim(),
           rating: userRating,
@@ -559,7 +559,7 @@ const CourseDetailsPage = () => {
 
           // Vérifier la progression du cours
           const progressResponse = await fetch(
-            `http://192.168.70.148:4000/courseprogress/${course._id}`,
+            `https://backendlms-5992.onrender.com/courseprogress/${course._id}`,
             {
               headers: {
                 'Authorization': `Bearer ${token}`,
@@ -582,7 +582,7 @@ const CourseDetailsPage = () => {
           if (course.quizId) {
             try {
               const quizId = typeof course.quizId === 'object' ? course.quizId._id : course.quizId;
-              const quizResults = await axios.get(`http://192.168.70.148:4000/quizResult/${quizId}`,
+              const quizResults = await axios.get(`https://backendlms-5992.onrender.com/quizResult/${quizId}`,
                 {
                   headers: {
                     'Authorization': `Bearer ${token}`,
@@ -653,7 +653,7 @@ const CourseDetailsPage = () => {
         return;
       }
       const response = await fetch(
-        `http://192.168.70.148:4000/progress/create/${courseId}/${moduleId}/${videoId}`,
+        `https://backendlms-5992.onrender.com/progress/create/${courseId}/${moduleId}/${videoId}`,
         {
           method: 'POST',
           headers: {
@@ -679,7 +679,7 @@ const CourseDetailsPage = () => {
         return;
       }
       const response = await fetch(
-        `http://192.168.70.148:4000/progress/update/${courseId}/${moduleId}/${videoId}`,
+        `https://backendlms-5992.onrender.com/progress/update/${courseId}/${moduleId}/${videoId}`,
         {
           method: 'PUT',
           headers: {
@@ -708,7 +708,7 @@ const CourseDetailsPage = () => {
         return;
       }
       const response = await fetch(
-        `http://192.168.70.148:4000/courseprogress/${course._id}`,
+        `https://backendlms-5992.onrender.com/courseprogress/${course._id}`,
         {
           headers: {
             'Authorization': `Bearer ${token}`,
@@ -761,7 +761,7 @@ const CourseDetailsPage = () => {
         <div className="relative h-[400px]">
           <div className="absolute inset-0">
             <img
-              src={`http://192.168.70.148:4000/Public/Images/${course.image}`}
+              src={`https://backendlms-5992.onrender.com/Public/Images/${course.image}`}
               alt={course.nom}
               className="w-full h-full object-cover"
             />
@@ -827,7 +827,7 @@ const CourseDetailsPage = () => {
                       {course.professeurId && (
                         <>
                           <img
-                            src={`http://192.168.70.148:4000/Public/Images/${course.professeurId.image}`}
+                            src={`https://backendlms-5992.onrender.com/Public/Images/${course.professeurId.image}`}
                             alt={course.professeurId.name}
                             className="w-12 h-12 rounded-full object-cover"
                           />
@@ -1036,7 +1036,7 @@ const CourseDetailsPage = () => {
                               >
                                 <div className="flex items-start space-x-4">
                                   <img
-                                    src={`http://192.168.70.148:4000/Public/Images/${userImage}`}
+                                    src={`https://backendlms-5992.onrender.com/Public/Images/${userImage}`}
                                     alt={userName}
                                     className="w-12 h-12 rounded-full object-cover"
                                   />
@@ -1056,7 +1056,7 @@ const CourseDetailsPage = () => {
                                       <div className="mt-4 bg-gray-50 p-4 rounded-lg">
                                         <div className="flex items-start space-x-4">
                                           <img
-                                            src={`http://192.168.70.148:4000/Public/Images/${professorImage}`}
+                                            src={`https://backendlms-5992.onrender.com/Public/Images/${professorImage}`}
                                             alt={professorName}
                                             className="w-10 h-10 rounded-full object-cover"
                                           />
@@ -1131,7 +1131,7 @@ const CourseDetailsPage = () => {
                           >
                             <div className="flex items-start space-x-4">
                               <img
-                                src={`http://192.168.70.148:4000/Public/Images/${fb.apprenant_id?.userId?.image ||
+                                src={`https://backendlms-5992.onrender.com/Public/Images/${fb.apprenant_id?.userId?.image ||
                                   "default-user.png"
                                   }`}
                                 alt={fb.apprenant_id?.userId?.name}
@@ -1270,7 +1270,7 @@ const CourseDetailsPage = () => {
               <div className="bg-white rounded-xl shadow-lg overflow-hidden sticky top-20">
                 <div className="relative aspect-video">
                   <img
-                    src={`http://192.168.70.148:4000/Public/Images/${course.image}`}
+                    src={`https://backendlms-5992.onrender.com/Public/Images/${course.image}`}
                     alt={course.nom}
                     className="w-full h-full object-cover"
                   />
@@ -1432,7 +1432,7 @@ const CourseDetailsPage = () => {
               <video
                 controls
                 className="w-full h-full"
-                src={`http://192.168.70.148:4000/Public/Videos/${selectedVideo.url}`}
+                src={`https://backendlms-5992.onrender.com/Public/Videos/${selectedVideo.url}`}
                 onEnded={async () => {
                   if (selectedVideo) {
                     try {

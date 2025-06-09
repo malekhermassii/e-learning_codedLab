@@ -209,7 +209,7 @@ export const updateUserProfile = (updatedData) => {
 export const hasActiveSubscriptionServer = async () => {
   try {
     const token = localStorage.getItem("token") || sessionStorage.getItem("token");
-    const response = await fetch("http://192.168.70.148:4000/abonnement/status", {
+    const response = await fetch("https://backendlms-5992.onrender.com/abonnement/status", {
       headers: {
         'Authorization': `Bearer ${token}`,
       }

@@ -80,7 +80,7 @@ const Navbar = () => {
   //effet pour la connexion au serveur Socket.IO
   useEffect(() => {
     console.log("Initialisation de la connexion Socket.IO");
-    const socket = io("http://192.168.70.148:4000", {
+    const socket = io("https://backendlms-5992.onrender.com", {
       transports: ['websocket', 'polling'],
       reconnection: true,
       reconnectionAttempts: 5,
@@ -223,7 +223,7 @@ const Navbar = () => {
     console.log("image",image);
     
     if (image && !image.includes('https')) {
-      setUserProfileImage(`http://192.168.70.148:4000/Public/Images/${image}`);
+      setUserProfileImage(`https://backendlms-5992.onrender.com/Public/Images/${image}`);
     }
     else {
       setUserProfileImage(image);
@@ -237,7 +237,7 @@ const Navbar = () => {
     const handleProfileImageUpdate = (event) => {
       const { image } = event.detail;
       if (image) {
-        setUserProfileImage(`http://192.168.70.148:4000/Public/Images/${image}`);
+        setUserProfileImage(`https://backendlms-5992.onrender.com/Public/Images/${image}`);
       }
     };
     window.addEventListener('profileImageUpdated', handleProfileImageUpdate);

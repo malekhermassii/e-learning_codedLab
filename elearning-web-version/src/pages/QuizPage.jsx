@@ -7,7 +7,7 @@ import axios from "axios";
 import { setCourses } from "../redux/slices/courseSlice";
 import { useTranslation } from 'react-i18next';
 import { toast } from "react-toastify";
-const API_URL = "http://192.168.70.148:4000";
+const API_URL = "https://backendlms-5992.onrender.com";
 
 const QuizPage = (props) => {
    const dispatch = useDispatch();
@@ -52,7 +52,7 @@ const QuizPage = (props) => {
 
          // Vérifier l'inscription via l'API
          const enrollResponse = await axios.get(
-           `http://192.168.70.148:4000/enroll/check/${courseId}`,
+           `https://backendlms-5992.onrender.com/enroll/check/${courseId}`,
            {
              headers: {
                Authorization: `Bearer ${token}`,

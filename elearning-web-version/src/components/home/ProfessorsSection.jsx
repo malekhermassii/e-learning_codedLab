@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useTranslation } from "react-i18next";
 
-const API_URL = "http://192.168.70.148:4000";
+const API_URL = "https://backendlms-5992.onrender.com";
 
 const ProfessorsSection = () => {
   const { t } = useTranslation();

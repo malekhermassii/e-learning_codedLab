@@ -59,7 +59,7 @@ const InstructorManagementPage = () => {
       }
 
       const response = await axios.put(
-        `http://192.168.70.148:4000/professeur/${selectedInstructor.id}`,
+        `https://backendlms-5992.onrender.com/professeur/${selectedInstructor.id}`,
         {
           name: selectedInstructor.name,
           email: selectedInstructor.email,
@@ -98,7 +98,7 @@ const InstructorManagementPage = () => {
     
     try {
       const response = await axios.delete(
-        `http://192.168.70.148:4000/professeur/${selectedInstructor.id}`
+        `https://backendlms-5992.onrender.com/professeur/${selectedInstructor.id}`
       );
 
       if (response.status === 200) {
@@ -137,7 +137,7 @@ const InstructorManagementPage = () => {
         return;
       }
 
-      const response = await axios.post("http://192.168.70.148:4000/professeurcreate", {
+      const response = await axios.post("https://backendlms-5992.onrender.com/professeurcreate", {
         name: values.name,
         email: values.email,
         password: values.password,

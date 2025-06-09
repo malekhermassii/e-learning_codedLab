@@ -24,7 +24,7 @@ const CourseCard = ({
   return (
     <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
       <img
-        src={`http://192.168.70.148:4000/Public/Images/${image}`}
+        src={`https://backendlms-5992.onrender.com/Public/Images/${image}`}
         alt={nom}
         className="w-full h-48 object-cover"
       />

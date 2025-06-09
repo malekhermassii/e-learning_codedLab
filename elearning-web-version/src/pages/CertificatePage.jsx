@@ -25,7 +25,7 @@ const CertificatePage = () => {
         setLoading(true);
         const token = localStorage.getItem('token') || sessionStorage.getItem('token');
         const response = await axios.get(
-          `http://192.168.70.148:4000/certificat/course/${courseId}`,
+          `https://backendlms-5992.onrender.com/certificat/course/${courseId}`,
           {
             headers: {
               'Authorization': `Bearer ${token}`
@@ -51,7 +51,7 @@ const CertificatePage = () => {
     try {
       const token = localStorage.getItem('token') || sessionStorage.getItem('token');
       const response = await axios.get(
-        `http://192.168.70.148:4000/certificats/${certificatInfo.certificat.id}/telecharger`,
+        `https://backendlms-5992.onrender.com/certificats/${certificatInfo.certificat.id}/telecharger`,
         {
           headers: {
             'Authorization': `Bearer ${token}`

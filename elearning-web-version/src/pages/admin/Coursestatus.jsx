@@ -17,7 +17,7 @@ const CourseStatus = () => {
   const [videoError, setVideoError] = useState(null);
 
   // Configuration de base d'axios
-  const baseURL = "http://192.168.70.148:4000";
+  const baseURL = "https://backendlms-5992.onrender.com";
   axios.defaults.baseURL = baseURL;
 
   // Configuration de l'intercepteur pour l'authentification
@@ -112,7 +112,7 @@ const CourseStatus = () => {
     }
 
     // Construction de l'URL complète
-    const videoUrl = `http://192.168.70.148:4000/Public/Videos/${video.url}`;
+    const videoUrl = `https://backendlms-5992.onrender.com/Public/Videos/${video.url}`;
     console.log("URL vidéo construite:", videoUrl);
     console.log("Titre de la vidéo:", video.titre);
 
@@ -237,7 +237,7 @@ const CourseStatus = () => {
                     </td>
                     <td className="px-6 py-4 flex items-center">
                       <img
-                        src={`http://192.168.70.148:4000/Public/Images/${course.image}`}
+                        src={`https://backendlms-5992.onrender.com/Public/Images/${course.image}`}
                         alt="course"
                         className="h-10 w-10 rounded-lg object-cover mr-3"
                         onError={(e) => {
@@ -338,7 +338,7 @@ const CourseStatus = () => {
               <div className="space-y-4">
                 <div className="flex flex-col md:flex-row items-start gap-6">
                   <img
-                    src={`http://192.168.70.148:4000/Public/Images/${selectedCourse.image}`}
+                    src={`https://backendlms-5992.onrender.com/Public/Images/${selectedCourse.image}`}
                     alt="Course"
                     className="w-full md:w-48 h-48 object-cover rounded"
                     onError={(e) => {

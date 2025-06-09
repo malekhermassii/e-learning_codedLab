@@ -208,7 +208,7 @@ const InstructorLayout = () => {
                 <div className="h-8 w-8 rounded-full bg-indigo-600 text-white flex items-center justify-center">
                   {currentprof?.image ? (
                     <img 
-                      src={`http://192.168.70.148:4000/Public/Images/${currentprof.image}`} 
+                      src={`https://backendlms-5992.onrender.com/Public/Images/${currentprof.image}`} 
                       alt="Profile" 
                       className="h-full w-full rounded-full object-cover"
                     />

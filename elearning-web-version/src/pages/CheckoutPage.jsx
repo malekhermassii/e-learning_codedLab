@@ -26,7 +26,7 @@ const CheckoutPage = () => {
         }
 
         // appel à l'api pour la création de la session de paiement
-        const response = await fetch(`http://192.168.70.148:4000/checkoutsession`, {
+        const response = await fetch(`https://backendlms-5992.onrender.com/checkoutsession`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

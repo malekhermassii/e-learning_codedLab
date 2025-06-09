@@ -53,7 +53,7 @@ const CourseQuizzesPage = () => {
 
     try {
       const response = await axios.delete(
-        `http://192.168.70.148:4000/quiz/${quizToDelete._id}`
+        `https://backendlms-5992.onrender.com/quiz/${quizToDelete._id}`
       );
 
       if (response.status === 200) {

@@ -39,7 +39,7 @@ const StudentManagementPage = () => {
     try {
       const token = localStorage.getItem("adminToken") || sessionStorage.getItem("adminToken");
       const response = await axios.delete(
-        `http://192.168.70.148:4000/apprenant/${selectedStudent._id}`,
+        `https://backendlms-5992.onrender.com/apprenant/${selectedStudent._id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

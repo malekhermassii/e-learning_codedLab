@@ -54,7 +54,7 @@ const ProfilePageadmin = () => {
   useEffect(() => {
     console.log("État actuel de l'admin:", adminState?.adminInfo);
     if (adminState?.adminInfo?.image) {
-      const imageUrl = `http://192.168.70.148:4000/Public/Images/${adminState.adminInfo.image}`;
+      const imageUrl = `https://backendlms-5992.onrender.com/Public/Images/${adminState.adminInfo.image}`;
       console.log("URL de l'image:", imageUrl);
       setProfileImage(imageUrl);
     }
@@ -105,7 +105,7 @@ const ProfilePageadmin = () => {
 
       console.log("Sending request to the API with the token:", token);
       const response = await axios.put(
-        "http://192.168.70.148:4000/adminprofile",
+        "https://backendlms-5992.onrender.com/adminprofile",
         formData,
         {
           headers: {
@@ -144,7 +144,7 @@ const ProfilePageadmin = () => {
 
         // Mettre à jour l'image si elle a été modifiée
         if (response.data.image) {
-          const imageUrl = `http://192.168.70.148:4000/Public/Images/${response.data.image}`;
+          const imageUrl = `https://backendlms-5992.onrender.com/Public/Images/${response.data.image}`;
           setProfileImage(imageUrl);
         }
       } else {

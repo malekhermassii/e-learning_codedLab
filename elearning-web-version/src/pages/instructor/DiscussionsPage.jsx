@@ -160,7 +160,7 @@ const UserQuestionPage = () => {
       }
 
       const response = await axios.put(
-        `http://192.168.70.148:4000/question/${selectedQuestion._id}/reponse`,
+        `https://backendlms-5992.onrender.com/question/${selectedQuestion._id}/reponse`,
         { reponse: responseText }
       );
 
@@ -204,7 +204,7 @@ const UserQuestionPage = () => {
 
   // Ajout de l'écouteur Socket.IO pour les notifications
   useEffect(() => {
-    const socket = io("http://192.168.70.148:4000");
+    const socket = io("https://backendlms-5992.onrender.com");
 
     socket.on("connect", () => {
       console.log("Connecté au serveur Socket.IO");

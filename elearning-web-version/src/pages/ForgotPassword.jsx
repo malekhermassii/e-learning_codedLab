@@ -16,7 +16,7 @@ export default function ForgotPassword() {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const response = await axios.post('http://192.168.70.148:4000/forgot-password', { email });
+      const response = await axios.post('https://backendlms-5992.onrender.com/forgot-password', { email });
       if (response.status === 200) {
         setMessage('Code sent to your email!');
         navigate('/verify-code', { state: { email } });

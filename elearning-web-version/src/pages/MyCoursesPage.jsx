@@ -30,7 +30,7 @@ const MyCoursesPage = () => {
   const fetchQuizResults = async (quizId) => {
     try {
       const token = localStorage.getItem('token') || sessionStorage.getItem('token');
-      const response = await axios.get(`http://192.168.70.148:4000/quizResult/${quizId}`, {
+      const response = await axios.get(`https://backendlms-5992.onrender.com/quizResult/${quizId}`, {
         headers: {
           'Authorization': `Bearer ${token}`,
           'Content-Type': 'application/json'
@@ -219,7 +219,7 @@ const MyCoursesPage = () => {
         <div className="md:flex">
           <div className="md:w-1/2 h-55">
             <img 
-              src={`http://192.168.70.148:4000/Public/Images/${course.courseId.image || 'default-course.jpg'}`}
+              src={`https://backendlms-5992.onrender.com/Public/Images/${course.courseId.image || 'default-course.jpg'}`}
               alt={course.courseId.nom || 'Course'} 
               className="h-full w-full object-cover"
             />

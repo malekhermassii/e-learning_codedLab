@@ -19,7 +19,7 @@ import { setQuestions } from "./redux/slices/questionSlice";
 import { Form } from "react-router-dom";
 import { setusers } from "./redux/slices/userSlice";
 
-const API_URL = "http://192.168.70.148:4000";
+const API_URL = "https://backendlms-5992.onrender.com";
 
 // Configuration de l'instance axios
 const api = axios.create({
@@ -455,7 +455,7 @@ const cleanupStorage = () => {
 export const fetchAllProgress = async () => {
   try {
     const token = localStorage.getItem('token') || sessionStorage.getItem('token');
-    const response = await fetch("http://192.168.70.148:4000/progression/all", {
+    const response = await fetch("https://backendlms-5992.onrender.com/progression/all", {
       headers: {
         'Authorization': `Bearer ${token}`,
       }
@@ -498,7 +498,7 @@ export const getQuizById = async (quizId) => {
 export const getQuizByInstructor = async (professeurId) => {
   const token = localStorage.getItem("profToken") || sessionStorage.getItem("profToken");
   try {
-    const response = await axios.get(`http://192.168.70.148:4000/quizByInstructor/${professeurId}`,{
+    const response = await axios.get(`https://backendlms-5992.onrender.com/quizByInstructor/${professeurId}`,{
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -536,7 +536,7 @@ export const getCourseByInstructor = async (professeurId) => {
     try {
       const token = localStorage.getItem("token") || sessionStorage.getItem("token");
      
-      const response = await axios.get(`http://192.168.70.148:4000/apprenant/by-user/${userId}`,{
+      const response = await axios.get(`https://backendlms-5992.onrender.com/apprenant/by-user/${userId}`,{
         headers: {
           Authorization: `Bearer ${token}`,
           

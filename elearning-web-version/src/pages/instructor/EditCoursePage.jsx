@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import { fetchCategories } from "../../api";
 import { useNavigate, useParams } from "react-router-dom";
 
-const API_BASE_URL ="http://192.168.70.148:4000";
+const API_BASE_URL ="https://backendlms-5992.onrender.com";
 
 const EditCoursePage = () => {
   const dispatch = useDispatch();

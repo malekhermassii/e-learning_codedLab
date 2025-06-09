@@ -22,7 +22,7 @@ export default function ResetPassword() {
     }
     setIsLoading(true);
     try {
-      await axios.post('http://192.168.70.148:4000/reset-password', { 
+      await axios.post('https://backendlms-5992.onrender.com/reset-password', { 
         email, 
         code, 
         newPassword: password 

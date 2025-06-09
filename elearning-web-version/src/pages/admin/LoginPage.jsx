@@ -49,7 +49,7 @@ const LoginPageadmin = () => {
     try {
       // Nettoyer toutes les sessions existantes
       console.log("Tentative de connexion avec:", values);
-      const response = await axios.post("http://192.168.70.148:4000/adminlogin", {
+      const response = await axios.post("https://backendlms-5992.onrender.com/adminlogin", {
         email: values.email,
         password: values.password,
       });

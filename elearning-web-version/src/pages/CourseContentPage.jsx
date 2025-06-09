@@ -54,7 +54,7 @@ const CourseContentPage = () => {
 
         console.log("courseContent.verificationn", token.substring(0, 20) + "...");
         const response = await axios.get(
-          `http://192.168.70.148:4000/enroll/check/${courseId}`,
+          `https://backendlms-5992.onrender.com/enroll/check/${courseId}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -68,7 +68,7 @@ const CourseContentPage = () => {
           //Inscription au cours
           try {
             const enrollResponse = await axios.post(
-              `http://192.168.70.148:4000/enroll/${courseId}`,
+              `https://backendlms-5992.onrender.com/enroll/${courseId}`,
               {},
               {
                 headers: {
@@ -194,7 +194,7 @@ const CourseContentPage = () => {
             return;
           } 
           
-          const quizResults = await axios.get(`http://192.168.70.148:4000/quizResult/${quizId}`,
+          const quizResults = await axios.get(`https://backendlms-5992.onrender.com/quizResult/${quizId}`,
             {
               headers: {
                 'Authorization': `Bearer ${token}`,
@@ -245,7 +245,7 @@ const CourseContentPage = () => {
         return;
       }
       const response = await fetch(
-        `http://192.168.70.148:4000/courseprogress/${course._id}`,
+        `https://backendlms-5992.onrender.com/courseprogress/${course._id}`,
         {
           headers: {
             'Authorization': `Bearer ${token}`,
@@ -484,7 +484,7 @@ const CourseContentPage = () => {
       }
 
       const response = await fetch(
-        `http://192.168.70.148:4000/progress/create/${courseId}/${moduleId}/${videoId}`,
+        `https://backendlms-5992.onrender.com/progress/create/${courseId}/${moduleId}/${videoId}`,
         {
           method: 'POST',
           headers: {
@@ -525,7 +525,7 @@ const CourseContentPage = () => {
       }
 
       const response = await fetch(
-        `http://192.168.70.148:4000/progress/update/${courseId}/${moduleId}/${videoId}`,
+        `https://backendlms-5992.onrender.com/progress/update/${courseId}/${moduleId}/${videoId}`,
         {
           method: 'PUT',
           headers: {
@@ -647,7 +647,7 @@ const CourseContentPage = () => {
                         controls
                         onEnded={handleVideoEnded}
                         onTimeUpdate={handleTimeUpdate}
-                        src={`http://192.168.70.148:4000/Public/videos/${course.modules[activeModule].videos[activeLesson].url}`}
+                        src={`https://backendlms-5992.onrender.com/Public/videos/${course.modules[activeModule].videos[activeLesson].url}`}
                       >
                         {t('courseContent.loading')}
                       </video>

@@ -73,7 +73,7 @@ const CategoryManagementPage = () => {
       }
       const token = localStorage.getItem("adminToken") || sessionStorage.getItem("adminToken");
       const response = await axios.put(
-        `http://192.168.70.148:4000/categorie/${selectedCategorie.id}`,
+        `https://backendlms-5992.onrender.com/categorie/${selectedCategorie.id}`,
         formData,
         {
           headers: {
@@ -120,7 +120,7 @@ const CategoryManagementPage = () => {
     try {
       const token = localStorage.getItem("adminToken") || sessionStorage.getItem("adminToken");
       const response = await axios.delete(
-        `http://192.168.70.148:4000/categorie/${selectedCategorie.id}`,
+        `https://backendlms-5992.onrender.com/categorie/${selectedCategorie.id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -166,7 +166,7 @@ const CategoryManagementPage = () => {
       formData.append("image", values.image);
       const token = localStorage.getItem("adminToken") || sessionStorage.getItem("adminToken");
       const response = await axios.post(
-        "http://192.168.70.148:4000/categorie",
+        "https://backendlms-5992.onrender.com/categorie",
         formData,
         {
           headers: {
@@ -270,7 +270,7 @@ const CategoryManagementPage = () => {
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
                   <img
-                    src={`http://192.168.70.148:4000/Public/Images/${categorie.image}`}
+                    src={`https://backendlms-5992.onrender.com/Public/Images/${categorie.image}`}
                     alt={categorie.titre}
                     className="h-12 w-12 object-cover rounded"
                   />
@@ -499,7 +499,7 @@ const CategoryManagementPage = () => {
                 {/* Afficher un aperçu si l'image existante est présente */}
                 {typeof selectedCategorie.image === "string" && (
                   <img
-                    src={`http://192.168.70.148:4000/Public/Images/${selectedCategorie.image}`}
+                    src={`https://backendlms-5992.onrender.com/Public/Images/${selectedCategorie.image}`}
                     alt="Preview"
                     className="h-16 w-16 mt-2 object-cover rounded"
                   />

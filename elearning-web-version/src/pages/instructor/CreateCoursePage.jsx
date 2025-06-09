@@ -9,7 +9,7 @@ import { fetchCategories } from "../../api";
 import { useNavigate } from "react-router-dom";
 
 // Base API URL - adjust according to environment
-const API_BASE_URL = "http://192.168.70.148:4000";
+const API_BASE_URL = "https://backendlms-5992.onrender.com";
 
 const CreateCoursePage = () => {
   const dispatch = useDispatch();

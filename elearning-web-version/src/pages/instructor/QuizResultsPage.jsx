@@ -17,7 +17,7 @@ const QuizResultsPage = () => {
       try {
         console.log(coursName);
         const { data } = await axios.get(
-          `http://192.168.70.148:4000/quiz/${quizId}`,{withCredentials: false},
+          `https://backendlms-5992.onrender.com/quiz/${quizId}`,{withCredentials: false},
         );
         setQuiz(data);
         setResults(data.resultats || []);

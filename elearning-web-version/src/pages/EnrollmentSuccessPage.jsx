@@ -83,7 +83,7 @@ const EnrollmentSuccessPage = () => {
               <div className="bg-white rounded-lg p-4 shadow-sm border border-blue-100">
                 <div className="flex items-center mb-4">
                   <img 
-                    src={`http://192.168.70.148:4000/Public/Images/${course.image}`}
+                    src={`https://backendlms-5992.onrender.com/Public/Images/${course.image}`}
                     alt={course.nom} 
                     className="w-16 h-16 object-cover rounded-md"
                   />

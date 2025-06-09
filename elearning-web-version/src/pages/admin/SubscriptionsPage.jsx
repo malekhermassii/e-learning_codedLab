@@ -189,7 +189,7 @@ const SubscriptionsPage = () => {
         // Mise à jour du plan
         const token = localStorage.getItem("adminToken") || sessionStorage.getItem("adminToken");
         response = await axios.put(
-          `http://192.168.70.148:4000/planabonnement/${selectedPlan._id}`,
+          `https://backendlms-5992.onrender.com/planabonnement/${selectedPlan._id}`,
           planData,
           {
             headers: {
@@ -202,7 +202,7 @@ const SubscriptionsPage = () => {
         // Création d'un nouveau plan
         const token = localStorage.getItem("adminToken") || sessionStorage.getItem("adminToken");
         response = await axios.post(
-          "http://192.168.70.148:4000/planabonnement",
+          "https://backendlms-5992.onrender.com/planabonnement",
           planData,
           {
             headers: {
@@ -247,7 +247,7 @@ const SubscriptionsPage = () => {
         setError(null);
         const token = localStorage.getItem("adminToken") || sessionStorage.getItem("adminToken");
         await axios.delete(
-          `http://192.168.70.148:4000/planabonnement/${planId}`,
+          `https://backendlms-5992.onrender.com/planabonnement/${planId}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,

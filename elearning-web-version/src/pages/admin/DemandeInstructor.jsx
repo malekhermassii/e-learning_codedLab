@@ -59,7 +59,7 @@ const InstructorApplicationsPage = () => {
     try {
       const token = localStorage.getItem("adminToken") || sessionStorage.getItem("adminToken");
       const response = await axios.put(
-        `http://192.168.70.148:4000/demandes/${selectedApplication._id}/accepter`,
+        `https://backendlms-5992.onrender.com/demandes/${selectedApplication._id}/accepter`,
         newInstructorData,  
         {
           headers: {
@@ -84,7 +84,7 @@ const InstructorApplicationsPage = () => {
     try {
       const token = localStorage.getItem("adminToken") || sessionStorage.getItem("adminToken");
       const response = await axios.put(
-        `http://192.168.70.148:4000/demandes/${id}/refuser`,
+        `https://backendlms-5992.onrender.com/demandes/${id}/refuser`,
         {},
         {
           headers: {
@@ -265,7 +265,7 @@ const InstructorApplicationsPage = () => {
                 <strong>{t('instructorApplications.modals.details.cv')}:</strong>
                 {selectedApplication.cv ? (
                   <a
-                    href={`http://192.168.70.148:4000/Public/CV/${selectedApplication.cv}`}
+                    href={`https://backendlms-5992.onrender.com/Public/CV/${selectedApplication.cv}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 underline ml-2"

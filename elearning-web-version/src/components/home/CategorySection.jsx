@@ -66,7 +66,7 @@ const CategorySection = () => {
   useEffect(() => {
     const loadInitialData = async () => {
       try {
-        const response = await axios.get('http://192.168.70.148:4000/categorie', 
+        const response = await axios.get('https://backendlms-5992.onrender.com/categorie', 
           {withCredentials: false},
         {
           headers: { 'Content-Type': 'application/json' }
@@ -166,7 +166,7 @@ const CategorySection = () => {
                 >
                   <div className="text-blue-600 mb-3">
                     <img
-                      src={`http://192.168.70.148:4000/Public/Images/${category.image}`}
+                      src={`https://backendlms-5992.onrender.com/Public/Images/${category.image}`}
                       alt={category.titre}
                       className="h-16 w-16 object-cover rounded-full"
                       onError={(e) => {

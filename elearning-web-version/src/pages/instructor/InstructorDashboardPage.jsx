@@ -37,7 +37,7 @@ const InstructorDashboardPage = () => {
 
 
       // Configuration Socket.IO avec options de reconnexion
-      const newSocket = io("http://192.168.70.148:4000", {
+      const newSocket = io("https://backendlms-5992.onrender.com", {
         reconnection: true, //si la connexion est coupée, essayer de se reconnecter.
         reconnectionAttempts: 5,
         reconnectionDelay: 1000, //attendre 1 seconde entre chaque tentative.

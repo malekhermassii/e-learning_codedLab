@@ -17,7 +17,7 @@ export default function VerifyCode() {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const response = await axios.post('http://192.168.70.148:4000/verify-code', { email, code });
+      const response = await axios.post('https://backendlms-5992.onrender.com/verify-code', { email, code });
       if (response.status === 200) {
         setMessage('Code verified!');
         navigate('/reset-password', { state: { email, code } });

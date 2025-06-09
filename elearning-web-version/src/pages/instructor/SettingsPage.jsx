@@ -61,7 +61,7 @@ const SettingsPage = () => {
   useEffect(() => {
     if (profState?.profInfo?.image) {
       const timestamp = new Date().getTime();
-      const imageUrl = `http://192.168.70.148:4000/Public/Images/${profState.profInfo.image}?t=${timestamp}`;
+      const imageUrl = `https://backendlms-5992.onrender.com/Public/Images/${profState.profInfo.image}?t=${timestamp}`;
       setProfileImage(imageUrl);
     }
   }, [profState?.profInfo?.image]);
@@ -119,7 +119,7 @@ const SettingsPage = () => {
       }
 
       const response = await axios.put(
-        "http://192.168.70.148:4000/updateprofile",
+        "https://backendlms-5992.onrender.com/updateprofile",
         formData,
         {
           headers: {
@@ -159,7 +159,7 @@ const SettingsPage = () => {
 
         if (updatedData.image) {
           const timestamp = new Date().getTime();
-          const imageUrl = `http://192.168.70.148:4000/Public/Images/${updatedData.image}?t=${timestamp}`;
+          const imageUrl = `https://backendlms-5992.onrender.com/Public/Images/${updatedData.image}?t=${timestamp}`;
           setProfileImage(imageUrl);
         }
       }

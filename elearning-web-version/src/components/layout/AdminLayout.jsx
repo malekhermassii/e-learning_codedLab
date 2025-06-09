@@ -50,7 +50,7 @@ const AdminLayout = () => {
   useEffect(() => {
     const image = localStorage.getItem('imageAdmin') || sessionStorage.getItem('imageAdmin');
     if (image) {
-      setUserProfileImage(`http://192.168.70.148:4000/Public/Images/${image}`);
+      setUserProfileImage(`https://backendlms-5992.onrender.com/Public/Images/${image}`);
     }
   }, []);
 

@@ -31,7 +31,7 @@ const Recommendations = () => {
     const fetchRecommendations = async () => {
       try {
         //fetch apprenant
-        const apprenantRes = await fetch(`http://192.168.70.148:4000/apprenant/by-user/${user._id}`, {
+        const apprenantRes = await fetch(`https://backendlms-5992.onrender.com/apprenant/by-user/${user._id}`, {
           headers: { Authorization: `Bearer ${token}` },
         });
         if (!apprenantRes.ok) {
@@ -148,7 +148,7 @@ const Recommendations = () => {
                   className="bg-white rounded-2xl shadow-md border border-gray-100 flex-shrink-0 flex flex-col hover:shadow-xl transition-shadow duration-300"
                 >
                   <img
-                    src={`http://192.168.70.148:4000/Public/Images/${course.image}`}
+                    src={`https://backendlms-5992.onrender.com/Public/Images/${course.image}`}
                     alt={course.nom}
                     className="w-full h-36 object-cover rounded-t-2xl"
                   />

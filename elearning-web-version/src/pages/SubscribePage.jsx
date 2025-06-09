@@ -59,7 +59,7 @@ const SubscribePage = () => {
   const [plans, setPlans] = useState([]);
   //HANDLE FETCH PLANS
   useEffect(() => {
-    fetch("http://192.168.70.148:4000/planabonnement")
+    fetch("https://backendlms-5992.onrender.com/planabonnement")
       .then(res => res.json())
       .then(data => setPlans(data))
       .catch(console.error);

@@ -82,7 +82,7 @@ const LoginPage = () => {
     setIsLoading(true);
     setErrorMessage("");
     try {
-      const response = await axios.post("http://192.168.70.148:4000/login", {
+      const response = await axios.post("https://backendlms-5992.onrender.com/login", {
         email: values.email,
         password: values.password,
       });

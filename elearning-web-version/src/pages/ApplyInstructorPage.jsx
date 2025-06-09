@@ -8,7 +8,7 @@ import { addDemande } from "../redux/slices/demandeSlice";
 import { useTranslation } from 'react-i18next';
 
 // Configuration de l'URL de base pour axios (adapter selon votre configuration)
-const API_BASE_URL = "http://192.168.70.148:4000";
+const API_BASE_URL = "https://backendlms-5992.onrender.com";
 
 const ApplyInstructorPage = () => {
   const navigate = useNavigate();

@@ -31,7 +31,7 @@ const ProfilePage = () => {
         navigate('/login');
         return;
       }
-      const response = await axios.get('http://192.168.70.148:4000/profile', {
+      const response = await axios.get('https://backendlms-5992.onrender.com/profile', {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -46,7 +46,7 @@ const ProfilePage = () => {
 
       setUserData(formattedData);
       if (!response.data.image.includes('https')) {
-        setProfileImage(`http://192.168.70.148:4000/Public/Images/${response.data.image}`);
+        setProfileImage(`https://backendlms-5992.onrender.com/Public/Images/${response.data.image}`);
       }
       else{
         setProfileImage(response.data.image);
@@ -133,7 +133,7 @@ const ProfilePage = () => {
       }
 
       const response = await axios.put(
-        'http://192.168.70.148:4000/profile',
+        'https://backendlms-5992.onrender.com/profile',
         formData,
         {
           headers: {
@@ -159,7 +159,7 @@ const ProfilePage = () => {
       setUserData(formattedData);
       // Mettre à jour l'image si elle a été modifiée
       if (response.data.image) {
-        setProfileImage(`http://192.168.70.148:4000/Public/Images/${response.data.image}`);
+        setProfileImage(`https://backendlms-5992.onrender.com/Public/Images/${response.data.image}`);
       }
 
       localStorage.setItem("image", response.data.image);
@@ -197,7 +197,7 @@ const ProfilePage = () => {
       try {
         const token = localStorage.getItem('token')||sessionStorage.getItem('token');
     
-        const response = await axios.get('http://192.168.70.148:4000/abonnement', {
+        const response = await axios.get('https://backendlms-5992.onrender.com/abonnement', {
           withCredentials: false,
           headers: {
           Authorization: `Bearer ${token}`

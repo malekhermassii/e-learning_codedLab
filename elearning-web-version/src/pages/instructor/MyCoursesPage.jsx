@@ -6,7 +6,7 @@ import { deleteCourse, setCourses } from "../../redux/slices/courseSlice";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const API_URL = "http://192.168.70.148:4000";
+const API_URL = "https://backendlms-5992.onrender.com";
 
 const InstructorCoursesPage = () => {
   const dispatch = useDispatch();
@@ -169,7 +169,7 @@ const InstructorCoursesPage = () => {
                     <td className="px-6 py-4">
                       <img
                         className="h-14 w-24 object-cover rounded"
-                        src={`http://192.168.70.148:4000/Public/Images/${course.image}`}
+                        src={`https://backendlms-5992.onrender.com/Public/Images/${course.image}`}
                         alt={course.nom}
                       />
                     </td>
