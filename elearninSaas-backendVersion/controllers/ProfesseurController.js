@@ -50,7 +50,7 @@ exports.registerProfessor = async (req, res) => {
       from: process.env.EMAIL_USER,
       to: email,
       subject: "Votre compte professeur a été créé",
-      text: `Bonjour ${name},\n\nVotre compte professeur a été créé avec succès.\n\nIdentifiants de connexion:\nEmail: ${email}\nMot de passe temporaire: ${password} \n\nvoici votre lien http://localhost:4000/loginprof\n\nMerci de modifier votre mot de passe après connexion.\n\nCordialement,\nL'professeuristration  `,
+      text: `Bonjour ${name},\n\nVotre compte professeur a été créé avec succès.\n\nIdentifiants de connexion:\nEmail: ${email}\nMot de passe temporaire: ${password} \n\nvoici votre lien https://backendlms-5992.onrender.comloginprof\n\nMerci de modifier votre mot de passe après connexion.\n\nCordialement,\nL'professeuristration  `,
 
     };
 

@@ -63,7 +63,7 @@ const LoginPage = () => {
   // Google Auth
   const googleAuth = () => {
 		window.open(
-			`http://localhost:4000/auth/google/callback`,
+			`https://backendlms-5992.onrender.comauth/google/callback`,
 			"_self"
       
 		);

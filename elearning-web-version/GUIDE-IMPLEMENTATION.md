@@ -117,7 +117,7 @@ Mettez à jour le fichier `src/index.css` :
 Créez un fichier `.env.development` à la racine du projet :
 
 ```
-VITE_API_BASE_URL=http://localhost:4000/api
+VITE_API_BASE_URL=https://backendlms-5992.onrender.comapi
 VITE_STRIPE_PUBLIC_KEY=your_stripe_public_key
 ```
 
