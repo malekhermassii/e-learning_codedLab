@@ -7,7 +7,6 @@ class MongoDBService:
         #connexion à la base de données
         self.client = MongoClient("mongodb+srv://maleekhermassii:mcsxTp9Svo5zrtUU@cluster0.ie2ke8k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
         self.db = self.client["lms"]
-# mongodb+srv://maleekhermassii:mcsxTp9Svo5zrtUU@cluster0.ie2ke8k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
     def fetch_courses(self):
         #récupérer les cours depuis la base de données
         """Récupère les cours depuis MongoDB"""
