@@ -31,7 +31,7 @@ const Recommendations = () => {
     const fetchRecommendations = async () => {
       try {
         //fetch apprenant
-        const apprenantRes = await fetch(`https://backendlms-5992.onrender.com/apprenant/by-user/${user._id}`, {
+        const apprenantRes = await fetch(`https://recommendationsytem.onrender.com/apprenant/by-user/${user._id}`, {
           headers: { Authorization: `Bearer ${token}` },
         });
         if (!apprenantRes.ok) {
@@ -44,7 +44,7 @@ const Recommendations = () => {
           return;
         }
         const recRes = await fetch(
-          `http://192.168.70.148:5000/recommend/${apprenant._id}`,
+          `https://recommendationsytem.onrender.com/recommend/${apprenant._id}`,
           {
             headers: { Authorization: `Bearer ${user.token}` },
           }

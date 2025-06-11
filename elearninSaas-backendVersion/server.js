@@ -260,6 +260,8 @@ app.use("/Public/CV", express.static("Public/CV", {
 
 // Connect to MongoDB
 // mongodb+srv://maleekhermassii:mcsxTp9Svo5zrtUU@cluster0.ie2ke8k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+// mongodb+srv://malekhermassi:mcsxTp9Svo5zrtUU@cluster0.gplqblq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 mongoose
   .connect("mongodb+srv://maleekhermassii:mcsxTp9Svo5zrtUU@cluster0.ie2ke8k.mongodb.net/lms?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => {
