@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Darsi",
+    "slug": "elearningMobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "elearningmobile",
+    "icon": "./assets/Image1.jpg",
+    "splash": {
+      "image": "./assets/Image1.jpg",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rihabchebil.elearningMobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rihabchebil.elearningMobile"
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-video"
+    ],
+    "updates": {
+      "enabled": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1ae2a767-7fde-4a5b-8d6a-0382d861a51a"
+      }
+    },
+    "owner": "rihabchebil",
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
